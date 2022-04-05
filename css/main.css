@@ -793,11 +793,12 @@ font-family: 'Roboto Serif', serif;
 
 .container-mision-vision{
   height: 350px;
+  width: 95%;
 }
 .container-doubles{
   display: flex;
-  grid-column: 1/4;
-  width: 95%;
+  grid-column: 1/-1;
+  width: 99%;
   height: 100%;
   justify-content: space-between;
   align-items: center;
@@ -894,6 +895,9 @@ font-family: 'Roboto Serif', serif;
 .container-letter-img img{
   margin-right: 9%;
 }
+.container-img-letter img{
+  margin-left: 9%;
+}
 
 .img{
   width: 100%;
@@ -918,13 +922,44 @@ font-family: 'Roboto Serif', serif;
   display: flex;
   flex-wrap: wrap;
 }
+.container-img-letter h2{
+  padding-left: 9%;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+.container-img-letter p{
+  padding-left: 9%;
+  text-align: justify;
+  padding-right: 30px;
+  color: #142d3b;
+  font-family: 'Roboto Serif', serif;
+  font-size: 16px;
+}
 .container-img-letter{
   width: 50%;
 }
 .container-img-letter a button{
   margin-top: 1%;
-  height: 45px;
+  margin-left: 9%;
+  height: 50px;
   width: 200px;
+  color: white;
+  font-family: 'Roboto Serif', serif;
+  border: none;
+  background-color: #142d3b;
+
+}
+.container-letter-img a button{
+  margin-top: 1%;
+  margin-left: 9%;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-family: 'Roboto Serif', serif;
+  border: none;
+  background-color: #142d3b;
+
 }
 
 @media only screen and (max-width: 1286px){
@@ -1225,6 +1260,14 @@ footer{
       .icons p{
         font-size: 12px;
       }
+      .our-process-container{
+        display: block;
+        height: 200px;
+        width: 95%;
+      }
+      .our-process-letters{
+        width: 95%;
+      }
       .our-process-letters h2{
         font-size: 1.5em;
       
@@ -1232,9 +1275,7 @@ footer{
       .our-process-letters h4{
         font-size: 14px;
       }
-      .our-process-container{
-        height: 200px;
-      }
+
       .our-process-container h2{
         color: #142d3b;
       }
@@ -1271,6 +1312,107 @@ footer{
         text-transform: uppercase;
         font-size: 25px;
       }
+      .cover-container-who{
+        width: 100%;
+      }
+      .text__information-cover-contact{
+        width: 100%;
+      }
+      .container-seccion-special-who{
+        width: 100%;
+      }
+      .container-textos-cabeza{
+        grid-column: 1/4;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        margin-top: -50px;
+        margin-bottom: -40px;
+      }
+      .container-textos-cabeza h2{
+        width: 100%;
+        font-size: 25px;
+        font-family: 'Abel', sans-serif;
+        color: #142d3b;
+        font-weight: bold;
+      }
+      .container-mision-vision{
+        height: 300px;
+      }
+      .container-double{
+        height: 250px;
+      }
+      .container-double p{
+        font-size: 14px;
+      }
+      .container-letters-img{
+        display: block;
+      }
+      .container-letter-img p{
+        font-size: 14px;
+      }
+      .container-letter-img a button{
+        height: 30px;
+        width: 150px;
+        font-family: 'Roboto Serif', serif;
+        font-size: 14px;
+        color: white;
+        background-color: #142d3b;
+        border: none;
+      }
+      .img{
+        width: 85%;
+        margin-top: 5px;
+        height: 200px;
+        align-items: center;
+        margin-left: 9%;
+      }
+      .container-letter-img{
+        width: 99%;
+      }
+      /*img first*/
+      .container-imgs-letter{
+        display: block;
+      }
+      .container-img-letter p{
+        font-size: 14px;
+      }
+      .container-img-letter a button{
+        height: 30px;
+        width: 150px;
+        font-family: 'Roboto Serif', serif;
+        font-size: 14px;
+        color: white;
+        background-color: #142d3b;
+        border: none;
+      }
+      .container-img-letter{
+        width: 99%;
+      }
+      .container-firsts{
+        width: 93%;
+      }
+      .seccion-mapa-who{
+        width: 93%;
+      }
+      .form-who{
+        padding-left: 5%;
+        width: 93%;
+        border-top: none;
+        height: 300px;
+      }
+      .form-who h1{
+        font-size: 25px;
+        color: #cc900d;
+      }
+      .form-who p{
+        font-size: 20px;
+        padding: 5px;
+      }
+      .form-who span{
+        font-size: 16px;
+        padding: 5px;
+      }
 }
 
 @media  (min-width:768px){
@@ -1300,6 +1442,10 @@ footer{
       .text__information-cover{
         margin-left: -5%;
       }
+      .contenedor-who-text{
+        margin-top: 230px;
+      }  
+
   }
 
 
@@ -1367,6 +1513,9 @@ footer{
     blockquote a button{
         margin-top: 85px;
       }
+      .contenedor-who-text{
+        margin-top: 170px;
+      }
 }
 
 @media (min-width:1140px){
@@ -1404,6 +1553,9 @@ footer{
         padding-top: 50px;
         width:50%;
         margin-left: 0%;
+      }
+      .contenedor-who-text{
+        margin-top: -110px;
       }
 }
 @media (min-width:2560px){
