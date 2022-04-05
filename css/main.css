@@ -51,7 +51,7 @@ nav ul li{
 
 nav > ul > li:first-child > a{
     background-image: url(../img/logotype.png);
-    background-size: 50px;
+    background-size: 35px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 40px;
@@ -175,7 +175,7 @@ article p{
     font-size: 26px;
     color: white;
     cursor: pointer;
-    width: 26px;
+    width: 20px;
     height: 100%;
     display: none;
     align-items: center;
@@ -1192,6 +1192,8 @@ footer{
         font-size: 60px;
         font-family: 'Abel', sans-serif;
         margin-top: 60px;
+        text-transform: uppercase;
+        padding-top: 100px;
       
       }
       .contenedor-who-text p{
