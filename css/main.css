@@ -160,6 +160,7 @@ article{
     margin: 20px auto;
     padding: 40px;
     background: #fff;
+    
 }
 
 article p{
@@ -1151,13 +1152,17 @@ footer{
         padding-top: 10px;
     }
     .text__information-cover span{
-        font-size: 40px;}
+        font-size: 40px;
+      }
+
+        
     /*seccion galeria*/
     .video-container{
         display: block;
         justify-content: center;
         margin-top: 60px;
         background-color: white;
+        box-shadow: 0px 0px 10px #cc900d;
       }
 
       .video-text{
@@ -1273,10 +1278,14 @@ footer{
       .our-process-container{
         display: block;
         height: 200px;
-        width: 95%;
+        width: 100%;
+        box-shadow: 0px 0px 10px #cc900d;
+        margin-top: 5%;
+        margin-bottom: 5%;
       }
+      
       .our-process-letters{
-        width: 95%;
+        width: 100%;
       }
       .our-process-letters h2{
         font-size: 1.5em;
@@ -1293,6 +1302,7 @@ footer{
         font-size: 25px;
         text-transform: uppercase;
       }
+      
       .seccion p{
         font-size: 14px;
       }
@@ -1328,8 +1338,10 @@ footer{
       .text__information-cover-contact{
         width: 100%;
       }
-      .container-seccion-special-who{
+      .container-seccion-special{
         width: 100%;
+        box-shadow: 0px 0px 10px #cc900d;
+        
       }
       .container-textos-cabeza{
         grid-column: 1/4;
