@@ -1162,7 +1162,7 @@ footer{
         justify-content: center;
         margin-top: 60px;
         background-color: white;
-        box-shadow: 0px 0px 10px #cc900d;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
       }
 
       .video-text{
@@ -1279,7 +1279,7 @@ footer{
         display: block;
         height: 200px;
         width: 100%;
-        box-shadow: 0px 0px 10px #cc900d;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
         margin-top: 5%;
         margin-bottom: 5%;
       }
@@ -1340,7 +1340,7 @@ footer{
       }
       .container-seccion-special{
         width: 100%;
-        box-shadow: 0px 0px 10px #cc900d;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
         
       }
       .container-textos-cabeza{
