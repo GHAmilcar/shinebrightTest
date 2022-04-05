@@ -1072,6 +1072,10 @@ footer{
   margin-top: 10px;
   margin-left: 20px;
   max-width: 140px;
+  color: white;
+}
+.row2 label a{
+  color: white;
 }
 
 .container-footer{
