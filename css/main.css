@@ -1180,6 +1180,9 @@ footer{
       .cover-container-contact{
         height: 400px;
       }
+      .cover-container-who{
+        height: 400px;
+      }
       .contenedor-who-text{
         margin-top: 120px;
         height: 100px;
@@ -1221,13 +1224,7 @@ footer{
         height: auto;
       }
   }
-    p.numero {
-    color: #142d3b;
-    font-size: 4em;
-    display: block;
-    margin: 0 0 10px 0;
-    font-family: 'Oswald', sans-serif;
-  }
+
 
 @media screen and (max-width: 1024px){
 
