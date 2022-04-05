@@ -1130,6 +1130,9 @@ footer{
 @media screen and (max-width:425px){
     .cover{
         display: block;
+        box-shadow: 0px 0px 100px #000;
+        height: 450px;
+        background-image: url(../img/fondoindex.jpg);
     }
     .text__information-cover {
         width: 100%;
