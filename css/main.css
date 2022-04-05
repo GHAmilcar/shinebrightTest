@@ -1137,15 +1137,18 @@ footer{
         box-shadow: 0px 0px 100px #000;
         height: 450px;
         background-image: url(../img/fondoindex.jfif);
+        border-radius: 2px;
     }
     .text__information-cover {
         width: 100%;
+     
     }
     .media__cover{
         display: none;
     }
     .text__information-cover h1{
         font-size: 40px;
+        padding-top: 10px;
     }
     .text__information-cover span{
         font-size: 40px;}
