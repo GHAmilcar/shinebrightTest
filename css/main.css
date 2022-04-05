@@ -1184,7 +1184,7 @@ footer{
         height: 400px;
       }
       .contenedor-who-text{
-        margin-top: 120px;
+        margin-top: 180px;
         height: 100px;
         border-radius: 3px;
       }
@@ -1192,10 +1192,17 @@ footer{
         font-size: 60px;
         font-family: 'Abel', sans-serif;
         margin-top: 60px;
+      
       }
       .contenedor-who-text p{
         font-size: 30px;
         padding-top: 20px;
+      }
+      .text__information-cover{
+        margin-left: -5%;
+      }
+      .text__information-cover span{
+        text-shadow: 0px 0px 5px #cc900d;
       }
 }
 
@@ -1222,6 +1229,9 @@ footer{
       .card-body-video video{
         width: 100%;
         height: auto;
+      }
+      .text__information-cover{
+        margin-left: -5%;
       }
   }
 
@@ -1325,6 +1335,9 @@ footer{
         border-style: none;
         color: white;
         font-family: 'Roboto Serif', serif;
+      }
+      .text__information-cover{
+        margin-left: 5%;
       }
 }
 @media (min-width:2560px){
