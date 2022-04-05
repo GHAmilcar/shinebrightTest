@@ -1383,10 +1383,7 @@ footer{
         font-size: 15px;
         padding-right: 40px;
     }
-    .text__information-cover{
-        padding-top: 50px;
-        width:50%;
-    }
+
     .media__cover{
         padding-top: 50px;
         width: 50%;
@@ -1404,7 +1401,9 @@ footer{
         font-family: 'Roboto Serif', serif;
       }
       .text__information-cover{
-        margin-left: 5%;
+        padding-top: 50px;
+        width:50%;
+        margin-left: 0%;
       }
 }
 @media (min-width:2560px){
