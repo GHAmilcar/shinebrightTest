@@ -888,6 +888,10 @@ text-transform: capitalize;
 padding-left: 25px;
 color: white;
 }
+.container-section-cc-our-mission h2 span{
+  text-transform: capitalize;
+  color: #000;
+}
 .container-section-cc-our-mission p{
   font-size: 20px;
   padding-left: 25px;
