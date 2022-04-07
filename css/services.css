@@ -166,7 +166,13 @@
         margin-top: 30%;
         margin-left: 50%;
         width: 47%;
-
+      }
+      .container-explain-text h2{
+          padding: 1px;
+          font-size: 15px;
+      }
+      .container-explain-text p{
+          font-size: 14px;
       }
   }
 
