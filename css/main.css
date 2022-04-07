@@ -978,7 +978,7 @@ color: white;
 .container-cc-2{
   background-color:#C7C7C7;
   width: 32.50%;
-  height: 350px;
+  height: 375px;
   padding: 70px;
 }
 .container-cc-2 h2{
@@ -1039,13 +1039,15 @@ color: white;
 .container-cc-5{
   margin-top: -250px;
   width: 32.65%;
+  height: 300px;
 }
 
 .container-cc-6{
   width: 32.85%;
   background-color: #ffffff;
-  height: 520px;
+  height: 400px;
   margin-top: -175px;
+  padding: 80px;
   
 }
 .container-cc-6 i{
