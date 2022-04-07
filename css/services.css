@@ -78,7 +78,36 @@
   /* /COVER  */
 
   /* SECTION EXPLAIN */
+    .section-explain-container-ss{
+        max-width: 1440px;
+        width: 100%;
+        height: 700px;
+       
+    }
+    .container-explains-ss{
+        display: flex;
+        background-color: #cc900d;
+        width: 100%;
+        height: 98%;
     
+    }
+    .container-explain-ss{
+        display: block;
+        
+        width: 100%;
+
+    }
+    .container-explain-ss h1{
+        margin: 0;
+        width: 100%;
+        height: 456px;
+        background-color: #142d3b;
+    }
+    .container-explain-ss h2{
+        width: 100%;
+        height: 230px;
+        background-color: aqua;
+    }
   /* /SECTION EXPLAIN */
 
 
