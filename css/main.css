@@ -21,7 +21,7 @@ nav{
   width: 100%;
   height: 100%;
   height: 70px;
-  background: white;
+  background: #323a56;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
@@ -64,7 +64,7 @@ nav .navbar .links li a{
   height: 100%;
   text-decoration: none;
   white-space: nowrap;
-  color: #000;
+  color: #fff;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -195,6 +195,7 @@ nav .navbar .links li:hover .js-sub-menu{
 
   nav .navbar .logo a{
     font-size: 27px;
+    font-weight: bold;
   }
   nav .navbar .links li{
     padding: 0 10px;
@@ -216,7 +217,7 @@ nav .navbar .links li:hover .js-sub-menu{
     display: block;
     max-width: 350px;
     width: 100%;
-    background:  #142d3b;
+    background:  #323a56;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
