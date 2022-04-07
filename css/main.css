@@ -42,7 +42,10 @@ nav .navbar{
   font-weight: 600;
 }
 .navbar .logo a img{
-  width: 40px;
+  width: 60px;
+}
+.navbar a img{
+  padding: 5px;
 }
 nav .navbar .nav-links{
   line-height: 70px;
@@ -80,7 +83,7 @@ nav .navbar .links li .arrow{
   line-height: 70px;
   text-align: center;
   display: inline-block;
-  color: #fff;
+  color: #000;
   transition: all 0.3s ease;
 }
 nav .navbar .links li .sub-menu{
@@ -234,7 +237,7 @@ nav .navbar .links li:hover .js-sub-menu{
     .sidebar-logo  i,
     .navbar .bx-menu{
       font-size: 25px;
-      color: #fff;
+      color: #000;
     }
   nav .navbar .links{
     display: block;
