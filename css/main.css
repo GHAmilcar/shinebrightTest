@@ -915,6 +915,7 @@ color: white;
   font-size: 70px;
   text-transform: capitalize;
   color: #142d3b;
+  font-family: 'Abel', sans-serif;
 }
 .container-section-cc-text span{
   color: #cc900d;
@@ -939,7 +940,7 @@ color: white;
 .header-letters h2{
   color: white;
   font-weight: 500;
-  font-size: 3.75rem;
+  font-size: 16px;
   text-transform: capitalize;
   text-align: center;
   font-family: 'Abel', sans-serif;
@@ -949,6 +950,7 @@ color: white;
   text-align: center;
   color: white;
   font-size: 16px;
+  font-family: 'Roboto Serif', serif;
 }
 
 
@@ -985,6 +987,7 @@ color: white;
 .container-cc-2 p{
   font-size: 16px;
   color: #323a56;
+  font-family: 'Roboto Serif', serif;
 }
 .container-cc-2 i{
   color: #142d3b;
@@ -1007,6 +1010,7 @@ color: white;
   background-color: #e3353c;
   height: 350px;
   padding: 70px;
+  font-family: 'Roboto Serif', serif;
 }
 .container-cc-4 i{
   color: #142d3b;
@@ -1026,23 +1030,33 @@ color: white;
 .container-cc-4 p{
   color: #fff;
   font-size: 16px;
+  font-family: 'Roboto Serif', serif;
 }
 .container-cc-5{
-  margin-top: -275px;
+  margin-top: -250px;
   width: 32.65%;
-  
 }
+
 .container-cc-6{
   width: 32.85%;
   background-color: #ffffff;
   height: 520px;
   margin-top: -175px;
-  padding: 70px;
+  
 }
 .container-cc-6 i{
   font-size: 45px;
   color: #e3353c;
   font-weight: 100;
+  margin-left: -25px;
+  
+}
+.container-cc-6 h2{
+  text-transform: capitalize;
+  margin-left: -25px;
+}
+.container-cc-6 p{
+  margin-left: -25px;
 }
 
 .img-cc-1{
@@ -1845,10 +1859,10 @@ footer{
       }
       /* section two */
     .container-section-cc{
-      height: 1000px;
+      height: 300px;
       width: 100%;
-      background-color: #323a56;
-      margin: 0;
+      background-color: #f0f0f0;
+      margin-bottom: -150px;
     }
     .container-cc-process{
       display: block;
