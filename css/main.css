@@ -42,11 +42,9 @@ nav .navbar{
   font-weight: 600;
 }
 .navbar .logo a img{
-  width: 60px;
+  width: 40px;
 }
-.navbar a img{
-  padding: 5px;
-}
+
 nav .navbar .nav-links{
   line-height: 70px;
   height: 100%;
@@ -876,7 +874,7 @@ font-family: 'Roboto Serif', serif;
   margin: 10%;
   width: 30%;
   background-color: #323a56c0;
-
+  height: 500px;
 }
 .container-section-cc-our-mission h2{
 font-size: 70px;
