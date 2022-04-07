@@ -95,6 +95,7 @@ nav .navbar .links li .sub-menu{
   display: none;
   z-index: 2;
 }
+
 nav .navbar .links li:hover .htmlCss-sub-menu,
 nav .navbar .links li:hover .js-sub-menu{
   display: block;
@@ -231,7 +232,7 @@ nav .navbar .links li:hover .js-sub-menu{
   }
   .sidebar-logo .logo-name{
     font-size: 25px;
-    color: #000;
+    color: white;
   }
   .logo-name span{
     color: #cc900d;
