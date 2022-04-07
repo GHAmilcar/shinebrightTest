@@ -944,16 +944,17 @@ color: white;
 .header-letters h2{
   color: white;
   font-weight: 500;
-  font-size: 16px;
-  text-transform: capitalize;
+  font-size: 35px;
+  text-transform: uppercase;
   text-align: center;
   font-family: 'Abel', sans-serif;
+  padding-bottom: 1%;
 
 }
 .header-letters p{
   text-align: center;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto Serif', serif;
 }
 
@@ -970,6 +971,7 @@ color: white;
   width: 100%;
   
 }
+
 .container-cc-1{
   width: 33%;
   margin-left: 0.5%;
