@@ -1,3 +1,5 @@
+
+/* COVER */
 .container-section-ss{
     max-width: 1440px;
     width: 100%;
@@ -72,6 +74,13 @@
     text-transform: capitalize;
     font-size: 18px;
   }
+
+  /* /COVER  */
+
+  /* SECTION EXPLAIN */
+    
+  /* /SECTION EXPLAIN */
+
 
   @media(max-width:768px){
     .container-section-cc-our-mission-ss{
