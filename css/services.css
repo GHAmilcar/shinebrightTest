@@ -81,32 +81,47 @@
     .section-explain-container-ss{
         max-width: 1440px;
         width: 100%;
-        height: 700px;
+        height: 850px;
        
     }
     .container-explains-ss{
+        padding: 60px;
         display: flex;
-        background-color: #cc900d;
+        background-color: #f2f2f2;
         width: 100%;
-        height: 98%;
-    
+        height: 98%;   
     }
     .container-explain-ss{
         display: block;
-        
         width: 100%;
 
     }
-    .container-explain-ss h1{
+    .container-explain-img{
         margin: 0;
         width: 100%;
-        height: 456px;
+        max-height: 480px;
+        height: 100%;
         background-color: #142d3b;
     }
-    .container-explain-ss h2{
+    .img-ss{
+
+        width: 100%;
+        height: 100%;
+        
+    }
+    .container-explain-text{
+        margin: 0;
         width: 100%;
         height: 230px;
-        background-color: aqua;
+        background-color: #142d3b;
+    }
+    .container-explain-text-3{
+        margin: 0;
+        width: 100%;
+        max-height: 850px;
+        height: 100%;
+        background-color: white;
+
     }
   /* /SECTION EXPLAIN */
 
