@@ -866,7 +866,6 @@ font-family: 'Roboto Serif', serif;
 .container-contacts-cover{
   display: flex;
   width: 100%;
-  height: 100%;
 }
 .container-section-cc-our-mission{
   padding-top: 5%;
@@ -1774,7 +1773,142 @@ footer{
         font-size: 16px;
         padding: 5px;
       }
- 
+      .container-section{
+        height: 700px;
+      }
+      .container-section-cc-our-mission{
+        padding-top: 50px;
+        padding-right: 10px;
+      }
+      .container-section-cc-our-mission h2{
+        font-size: 12px;
+        font-weight: 100;
+        padding-right: 13px;
+      }
+      .container-section-cc-our-mission p{
+        font-size: 14px;
+        padding-right: 13px;
+      }
+      .container-section-cc-our-mission span{
+        font-size: 14px;
+      }
+      .container-section-cc-our-mission a button{
+        height: 35px;
+        width: 140px;
+      }
+      .container-section-header-cc{
+        height: 100px;
+       
+      }
+      .container-section-header-cc h2{
+        font-size: 20px;
+        margin-top: -35px;
+      }
+      .container-section-header-cc p{
+        font-size: 14px;
+      }
+      .container-section-cc-text{
+        padding-top: 35%;
+      }
+      .container-section-cc-text p{
+        font-size: 14px;
+        color: white;
+      }
+      /* section two */
+.container-section-cc{
+  height: 1000px;
+  width: 100%;
+  background-color: #323a56;
+  margin: 0;
+}
+.container-cc-process{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  
+}
+.container-cc-1{
+ display: none;
+  
+}
+.container-cc-2{
+  width: 100%;
+  height: 250px;
+  padding: 70px;
+}
+.container-cc-2 h2{
+  font-size: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+.container-cc-2 p{
+  font-size: 16px;
+}
+.container-cc-2 i{
+  color: #142d3b;
+  font-size: 45px;
+  font-weight: 100;
+}
+.container-cc-3{
+ display: none;
+
+}
+.container-cc-process-2{
+  display: block;
+  width: 100%;
+}
+.container-cc-4{
+  width: 100%;
+  height: 250px;
+  padding: 70px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.container-cc-4 i{
+  color: #142d3b;
+  font-size: 45px;
+  font-weight: 100;
+  
+}
+.container-cc-4 i{
+  font-size: 45px;
+}
+.container-cc-4 h2{
+  font-size: 25px;
+}
+.container-cc-4 p{
+  color: #fff;
+  font-size: 16px;
+}
+.container-cc-5{
+ display: none;
+  
+}
+.container-cc-6{
+  width: 100%;
+  background-color: #ffffff;
+  height: 250px;
+  margin-top: 0px;
+  padding: 70px;
+}
+.container-cc-6 i{
+  font-size: 45px;
+}
+
+.img-cc-1{
+  width: 100%;
+  height: 150px;
+  padding-left: 0%;
+}
+.img-cc-2{
+  width: 100%;
+  height: 150px;
+}
+.img-cc-3{
+  width: 100%;
+  height: 150px;
+}
 
 }
 
