@@ -91,8 +91,14 @@
         width: 100%;
         height: 98%;   
     }
+    .container-explains-ss-texts3{
+        padding: 60px;
+        display: flex;
+        background-color: #f2f2f2;
+        width: 100%;
+           
+    }
     .container-explain-ss{
-        display: block;
         width: 100%;
 
     }
@@ -113,15 +119,44 @@
         margin: 0;
         width: 100%;
         height: 230px;
-        background-color: #142d3b;
+        background-color: #0e1d27c5;
+        padding: 30px;
+    }
+    .container-explain-text h2{
+        font-size: 20px;
+        color: #f2f2f2;
+    }
+    .container-explain-text p{
+        font-size: 16px;
+        color: white;
     }
     .container-explain-text-3{
         margin: 0;
         width: 100%;
-        max-height: 850px;
+        max-height: 835px;
         height: 100%;
         background-color: white;
+        padding: 30px;
 
+    }
+    .container-explain-text-3 h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .container-explain-text-3 p{
+        font-size: 16px;
+    }
+    .container-explain-text-3 span{
+        font-size: 20px;
+    }
+    .container-explain-text-3 a button{
+        height: 50px;
+        width: 210px;
+        color: #f2f2f2;
+        font-size: 18px;
+        background-color: #cc900d;
+        border: none;
+        border-radius: 20px;
     }
   /* /SECTION EXPLAIN */
 
