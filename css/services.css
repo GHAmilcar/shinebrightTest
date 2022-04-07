@@ -1,51 +1,108 @@
 .container-section-ss{
     max-width: 1440px;
     width: 100%;
-    height: 800px;
-    
-    background-image: url(../img/fondoContact.jpg);
+    height: 1000px;
+    background-image: url(../images/ghhgh.jpg);
     
   }
-  .container-section-ss-container{
+  .container-contacts-cover{
+    display: flex;
     width: 100%;
   }
-  .container-section-ss-container{
+  .container-section-cc-our-mission-ss{
     padding-top: 5%;
     box-shadow: 0px 0px 3px #000;
-    margin: 10%;
-    width: 30%;
-    background-color: #323a56c0;
+    margin-top: 15%;
+    margin-left: 55%;
+    width: 40%;
+    background-color: #ffffffb9;;
     height: 500px;
   }
-  .container-section-ss-container h2{
-  font-size: 70px;
+  .container-section-cc-our-mission-ss h2{
+  font-size: 35px;
   text-transform: capitalize;
   padding-left: 25px;
-  color: white;
+  color: #000;
+  font-weight: bold;
   }
-  .container-section-ss-container h2 span{
+  .container-section-cc-our-mission-ss h2 span{
     text-transform: capitalize;
-    color: #000;
-    font-size: 70px;
+    color: #cc900d;
+    font-size: 35px;
     font-weight: 600;
   }
-  .container-section-ss-container p{
+  .container-section-cc-our-mission-ss p{
     font-size: 20px;
     padding-left: 25px;
-    color: #ccd1e5;
+    color: #000;
   
   }
-  .container-section-ss-container span{
+  .container-section-cc-our-mission-ss span{
     margin-top: 25%;
     padding-left: 25px;
-    color: white;
+    color: #000;
   
   }
-  .container-section-ss-container a button{
+  .container-section-cc-our-mission-ss a button{
     margin-left: 25px;
     height: 45px;
     width: 150px;
-    background-color: #142d3b;
+    background-color: #cc900d;
     border: none;
     color: white;
+    border-radius: 20px;
+  }
+  .container-section-cc-text-ss{
+    padding-top: 20%;
+    display: none;
+  }
+  .container-section-cc-text-ss h2{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #142d3b;
+    font-family: 'Abel', sans-serif;
+    padding-left: 25%;
+  }
+  .container-section-cc-text-ss span{
+    color: #cc900d;
+    text-shadow: 0px 0px 10px #000;
+    font-weight: bold;
+  }
+  .container-section-cc-text-ss p{
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  @media(max-width:768px){
+    .container-section-cc-our-mission-ss{
+        margin-top: 30%;
+        margin-left: 50%;
+        width: 47%;
+
+      }
+  }
+
+  @media(max-width:425px){
+      .container-section-ss{
+          height: 680px;
+      }
+
+    .container-section-cc-our-mission-ss{
+        padding-top: 5px;
+        box-shadow: 0px 0px 3px #000;
+        margin-top: 30%;
+        margin-left: 45%;
+        width: 50%;
+        height: 400px;
+      }
+      .container-section-cc-our-mission-ss h2{
+          font-size: 20px;
+      }
+      .container-section-cc-our-mission-ss h2 span{
+          font-size: 20px;
+      }
+      .container-section-cc-our-mission-ss p{
+          font-size: 16px;
+      }
+
   }
