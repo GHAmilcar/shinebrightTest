@@ -21,7 +21,7 @@ nav{
   width: 100%;
   height: 100%;
   height: 70px;
-  background: #142d3b;
+  background: white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
@@ -63,7 +63,7 @@ nav .navbar .links li a{
   height: 100%;
   text-decoration: none;
   white-space: nowrap;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -204,9 +204,7 @@ nav .navbar .links li:hover .js-sub-menu{
   }
 }
 @media (max-width:800px){
-  nav{
-    /* position: relative; */
-  }
+
   .navbar .bx-menu{
     display: block;
   }
@@ -855,9 +853,118 @@ font-family: 'Roboto Serif', serif;
   color: #142d3b;
 }
 
-/*FORMULARIO CONTACTO*/
+/* PAGE CONTACT*/
 
-/* ESTILOS PAGINAS DE SERVICIOS*/
+/* cover section */
+.container-section{
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/fondoContact.jpg);
+  
+}
+.container-contacts-cover{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.container-section-cc-our-mission{
+  padding-top: 5%;
+  box-shadow: 0px 0px 3px #000;
+  margin: 10%;
+  width: 30%;
+  background-color: #323a56c0;
+
+}
+.container-section-cc-our-mission h2{
+font-size: 70px;
+text-transform: capitalize;
+padding-left: 25px;
+color: white;
+}
+.container-section-cc-our-mission p{
+  font-size: 20px;
+  padding-left: 25px;
+  color: #ccd1e5;
+
+}
+.container-section-cc-our-mission span{
+  margin-top: 25%;
+  padding-left: 25px;
+  color: white;
+
+}
+.container-section-cc-our-mission a button{
+  margin-left: 25px;
+  height: 45px;
+  width: 150px;
+  background-color: #142d3b;
+  border: none;
+  color: white;
+}
+.container-section-cc-text{
+  padding-top: 0%;
+}
+.container-section-cc-text h2{
+  font-size: 70px;
+  text-transform: capitalize;
+  color: #142d3b;
+}
+.container-section-cc-text span{
+  color: #cc900d;
+  text-shadow: 0px 0px 10px #323a56;
+  font-weight: bold;
+}
+.container-section-cc-text p{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+/* section two */
+.container-section-cc{
+height: 1200px;
+width: 100%;
+background-color: #142d3b;
+}
+.container-cc-process{
+  display: flex;
+  grid-column: 1/-1;
+}
+.container-cc-1{
+  width: 33%;
+  padding-left: 2%;
+}
+.container-cc-2{
+  width: 33%;
+}
+.container-cc-3{
+  width: 33%;
+
+}
+.container-cc-4{
+  width: 33%;
+  padding-left: 2%;
+}
+.container-cc-5{
+  width: 33%;
+}
+.container-cc-6{
+  width: 33%;
+}
+.container-cc-7{
+  width: 33%;
+  padding-left: 2%;
+}
+.container-cc-8{
+  width: 33%;
+
+}
+.container-cc-9{
+  width: 33%;
+
+}
+.img-cc-1{
+  width: 450px;
+}
 
 
 /* GALLERY*/
