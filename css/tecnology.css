@@ -229,6 +229,9 @@ button.btn-form{
     .container-section-cc-our-mission-ss{
         padding-right: 10px;
     }
+    .container-section-cc-our-mission-ss h2{
+        font-size: 18px;
+    }
 
 }
 @media screen and (max-width:768px){
