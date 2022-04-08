@@ -37,22 +37,26 @@
     justify-content: space-between;
 }
 .container-instagram{
+    text-align: center;
     height: 280px;
     width: 49.5%;
     background-color: aliceblue;
 }
 
 .container-phone-number{
+    text-align: center;
     height: 280px;
     width: 49.5%;
     background-color: wheat;
 }
 .container-whatsapp{
+    text-align: center;
     height: 280px;
     width: 49.5%;
     background-color: black; 
 }
 .container-email{
+    text-align: center;
     height: 280px;
     width: 49.5%;
     background-color: greenyellow; 
@@ -73,4 +77,9 @@
     width: 50%;
     height: 100%;
     background-color: chocolate; 
+}
+
+.icon-form{
+    max-width: 80px;
+    width: 100%;
 }
