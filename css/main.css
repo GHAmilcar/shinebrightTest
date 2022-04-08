@@ -1846,10 +1846,10 @@ footer{
         padding: 5px;
       }
       .container-section{
-        height: 700px;
+        height: 800px;
+        padding-top: -40%;
       }
       .container-section-cc-our-mission{
-        padding-top: 50px;
         padding-right: 10px;
       }
       .container-section-cc-our-mission h2{
