@@ -1849,8 +1849,12 @@ footer{
         height: 800px;
         padding-top: -40%;
       }
+      .container-contacts-cover{
+        width: 40%;
+      }
       .container-section-cc-our-mission{
         padding-right: 10px;
+        width: 40%;
       }
       .container-section-cc-our-mission h2{
         font-size: 16px;
