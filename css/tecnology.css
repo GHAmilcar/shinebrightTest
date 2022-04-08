@@ -25,7 +25,7 @@
     width: 50%;
     background-color: blueviolet;
     display: flex;
-    padding: 5px 5px;
+    padding: 10px 10px;
     justify-content: space-between;
 }
 .container-forms-contacts-2{
@@ -33,27 +33,27 @@
     width: 50%;
     background-color: brown; 
     display: flex;
-    padding: 5px 5px;
+    padding: 10px 10px;
     justify-content: space-between;
 }
 .container-instagram{
-    height: 290px;
+    height: 280px;
     width: 49.5%;
     background-color: aliceblue;
 }
 
 .container-phone-number{
-    height: 290px;
+    height: 280px;
     width: 49.5%;
     background-color: wheat;
 }
 .container-whatsapp{
-    height: 290px;
+    height: 280px;
     width: 49.5%;
     background-color: black; 
 }
 .container-email{
-    height: 290px;
+    height: 280px;
     width: 49.5%;
     background-color: greenyellow; 
 }
