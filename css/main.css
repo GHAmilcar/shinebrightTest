@@ -2058,18 +2058,18 @@ footer{
 
   }
 
-  @media(max-width:768px){
+  @media(max-width:866px){
     .container-section-cc-our-mission{
       height: 450px;
-      width: 300px;
+      width: 350px;
       margin-top: 170px;
       margin-left: 20px;
     }
     .container-section-cc-our-mission h2{
-      font-size: 35px;
+      font-size: 30px;
     }
     .container-section-cc-our-mission h2 span{
-      font-size: 35px;
+      font-size: 30px;
     }
     .container-section-cc-text{
       margin-top: 15%;
