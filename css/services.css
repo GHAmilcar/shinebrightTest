@@ -3,9 +3,8 @@
 .container-section-ss{
     max-width: 1440px;
     width: 100%;
-    height: 1000px;
-    background-image: url(../images/ghhgh.jpg);
-    
+    height: 800px;
+    background-image: url(../images/ghhgh.jpg);   
   }
   .container-contacts-cover{
     display: flex;
