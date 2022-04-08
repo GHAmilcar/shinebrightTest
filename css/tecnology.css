@@ -3,5 +3,73 @@
 .section-container-contact-form{
     max-width: 1440px;
     width: 100%;
-    background-image: ;
+    background-image: url(../images/form-back.jpg);
+    height: 1200px;
+    padding: 20px 20px;
+}
+.container-forms{
+    width: 100%;
+    height: 900px;
+    background-color: goldenrod;
+    padding: 10px; /*quitar luego*/
+}
+.container-form{
+    width: 100%;
+    height: 325px;
+    background-color: blue;
+    padding: 10px 10px; /*quitar luego*/
+    display: flex;
+}
+.container-forms-contacts-1{
+    height: 300px;
+    width: 50%;
+    background-color: blueviolet;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+.container-forms-contacts-2{
+    height: 300px;
+    width: 50%;
+    background-color: brown; 
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+.container-instagram{
+    height: 290px;
+    width: 49.5%;
+    background-color: aliceblue;
+}
+
+.container-phone-number{
+    height: 290px;
+    width: 49.5%;
+    background-color: wheat;
+}
+.container-whatsapp{
+    height: 290px;
+    width: 49.5%;
+    background-color: black; 
+}
+.container-email{
+    height: 290px;
+    width: 49.5%;
+    background-color: greenyellow; 
+}
+.container-forms-form-map{
+    display: flex;
+    width: 100%;
+    height: 556px;
+    background-color: cadetblue;
+}
+.container-forms-form{
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.container-forms-map{
+    width: 50%;
+    height: 100%;
+    background-color: chocolate; 
 }
