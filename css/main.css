@@ -206,7 +206,7 @@ nav .navbar .links li:hover .js-sub-menu{
     font-size: 15px;
   }
 }
-@media (max-width:800px){
+@media (max-width:1024px){
 
   .navbar .bx-menu{
     display: block;
@@ -2058,7 +2058,7 @@ footer{
 
   }
 
-  @media(max-width:866px){
+  @media(max-width:768px){
     .container-section-cc-our-mission{
       height: 450px;
       width: 350px;
