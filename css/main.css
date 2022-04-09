@@ -870,6 +870,10 @@ font-family: 'Roboto Serif', serif;
   width: 100%;
   height: 800px;
   background-image: url(../img/fondoContact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
   
 }
 .container-contacts-cover{
