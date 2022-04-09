@@ -1,36 +1,56 @@
-.container-section-ss-cc{
+.container-section-contact {
     max-width: 1440px;
     width: 100%;
-    height: 800px;
+    height: 750px;
     background-image: url(../images/rrer.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;   
-  }
+    background-size: cover;
+}
+
+.container-contacts {
+    padding: 250px 300px;
+    width: 100%;
+}
+
+.container-contacts-h2-p h2 {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(33, 34, 34);
+}
+
+.container-contacts-h2-p span {
+    color: #cc900d;
+}
+
 
 /* CONTACT FORM */
-.section-container-contact-form{
+.section-container-contact-form {
     max-width: 1440px;
     width: 100%;
     background-image: url(../images/form-back.jpg);
     height: 1000px;
     padding: 50px 50px;
 }
-.container-forms{
+
+.container-forms {
     width: 100%;
     height: 340px;
     /* background-color: goldenrod; */
-    padding: 10px; 
+    padding: 10px;
 }
-.container-form{
+
+.container-form {
     width: 100%;
     height: 325px;
     /* background-color: blue; */
-    padding: 0px 0px; 
+    padding: 0px 0px;
     display: flex;
 }
-.container-forms-contacts-1{
+
+.container-forms-contacts-1 {
     height: 300px;
     width: 50%;
     background-color: transparent;
@@ -38,15 +58,17 @@
     padding: 10px 10px;
     justify-content: space-between;
 }
-.container-forms-contacts-2{
+
+.container-forms-contacts-2 {
     height: 300px;
     width: 50%;
-    background-color: transparent; 
+    background-color: transparent;
     display: flex;
     padding: 10px 10px;
     justify-content: space-between;
 }
-.container-instagram{
+
+.container-instagram {
     text-align: center;
     height: 280px;
     width: 48%;
@@ -54,13 +76,14 @@
     padding: 50px 50px;
     border-radius: 5px;
 }
-.container-instagram h2{
+
+.container-instagram h2 {
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.container-phone-number{
+.container-phone-number {
     text-align: center;
     height: 280px;
     width: 48%;
@@ -68,106 +91,122 @@
     padding: 50px 50px;
     border-radius: 5px;
 }
-.container-phone-number h2{
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.container-whatsapp{
-    text-align: center;
-    height: 280px;
-    width: 48%;
-    background-color: rgba(255, 255, 255, 0.685); 
-    padding: 50px 50px;
-    border-radius: 5px;
-}
-.container-whatsapp h2{
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.container-email{
-    text-align: center;
-    height: 280px;
-    width: 48%;
-    background-color: rgba(255, 255, 255, 0.685);  
-    padding: 50px 50px;
-    border-radius: 5px;
-}
-.container-email h2{
+
+.container-phone-number h2 {
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-a.styles-a{
+.container-whatsapp {
+    text-align: center;
+    height: 280px;
+    width: 48%;
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+
+.container-whatsapp h2 {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-email {
+    text-align: center;
+    height: 280px;
+    width: 48%;
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+
+.container-email h2 {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.styles-a {
     color: #142d3b;
     font-size: 16px;
 }
-.icon-form{
+
+.icon-form {
     font-size: 60px;
-    color: #cc900d;;
+    color: #cc900d;
+    ;
 }
-.container-forms-forms-maps{
+
+.container-forms-forms-maps {
     display: block;
     width: 100%;
     height: 540px;
     /* background-color: red;  */
     padding: 10px 10px;
 }
-.container-forms-forms{
+
+.container-forms-forms {
     display: flex;
     width: 100%;
     height: 100%;
     /* background-color: cadetblue;  */
-    padding: 10px 10px; /*quitar al finalizar formulario*/
+    padding: 10px 10px;
+    /*quitar al finalizar formulario*/
 }
-.container-forms-forms-map{
+
+.container-forms-forms-map {
     display: block;
     width: 50%;
     height: 100%;
-    background-color: black; 
+    background-color: black;
     padding: 30px 30px;
 }
-.container-forms-forms-location{
+
+.container-forms-forms-location {
     display: block;
     width: 50%;
     height: 100%;
     /* background-color: chartreuse;  */
 }
-.container-forms-forms-location iframe{
+
+.container-forms-forms-location iframe {
     width: 100%;
     height: 100%;
 }
 
-.container-forms-forms-map h2{
+.container-forms-forms-map h2 {
     font-size: 3em;
     color: aliceblue;
     letter-spacing: 2px;
     padding-bottom: 20px;
 }
 
-.inputs-father{
+.inputs-father {
     display: flex;
     justify-content: space-between;
 }
-label.label{
+
+label.label {
     color: white;
     font-size: 16px;
     font-family: 'Roboto Serif', serif;
     justify-content: space-between;
     width: 100%;
 }
-label.label2{
+
+label.label2 {
     /* padding-left: 41%; */
     color: white;
     font-family: 'Roboto Serif', serif;
     justify-content: space-between;
     width: 100%;
-    
+
 }
 
-input.input{
+input.input {
     height: 40px;
     width: 240px;
     border: none;
@@ -176,7 +215,7 @@ input.input{
     color: aliceblue;
 }
 
-input.input2{
+input.input2 {
     /* margin-left: 5%; */
     height: 40px;
     width: 240px;
@@ -185,7 +224,8 @@ input.input2{
     border-bottom: 2px solid #142d3b;
     color: aliceblue;
 }
-textarea.textarea{
+
+textarea.textarea {
     width: 100%;
     border: none;
     background-color: transparent;
@@ -193,7 +233,8 @@ textarea.textarea{
     color: aliceblue;
     height: 170px;
 }
-button.btn-form{
+
+button.btn-form {
     width: 100%;
     height: 45px;
     font-family: 'Roboto Serif', serif;
@@ -202,95 +243,106 @@ button.btn-form{
     background-color: aliceblue;
     border: none;
 }
-.container-forms-forms-map h4{
+
+.container-forms-forms-map h4 {
     color: white;
 }
-.container-forms-forms-map span{
+
+.container-forms-forms-map span {
     color: #cc900d;
 }
+
 @media(max-width:425px) {
-    .section-container-contact-form{
-        padding: 0px;
-    }
-    .container-forms{
-        padding: 0px;
-    }
-    .container-form{
+    .section-container-contact-form {
         padding: 0px;
     }
 
-    .container-forms-forms-map h2{
+    .container-forms {
+        padding: 0px;
+    }
+
+    /* .container-form{
+        padding: 0px;
+    } */
+
+    .container-forms-forms-map h2 {
         font-size: 25px;
     }
-    .container-form{
+
+    .container-form {
         width: 100%;
-        padding: 10px 10px;
+        /* padding: 10px 10px; */
     }
 
-    .inputs-father{
+    .inputs-father {
         display: block;
     }
-    textarea.textarea{
+
+    textarea.textarea {
         height: 100px;
     }
-    .container-contacts-cover{
-        padding-right: 10px ;
-    }
-    .container-section-cc-our-mission-ss{
-        padding-right: 10px;
-    }
-    .container-section-cc-our-mission-ss h2{
-        font-size: 18px;
-    }
+
+
 
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:768px) {
 
 
-    .section-container-contact-form{
+    .section-container-contact-form {
         height: 1700px;
     }
-    .container-forms-forms{
+
+    .container-forms-forms {
         display: block;
         height: 100%;
     }
-    .container-forms-forms-map{
+
+    .container-forms-forms-map {
         width: 100%;
         padding: 50px 50px;
     }
-    input.input{
+
+    input.input {
         width: 250px;
     }
-    .container-forms-forms-location{
+
+    .container-forms-forms-location {
         width: 100%;
-       
+
     }
-    .container-forms-forms-map h2{
+
+    .container-forms-forms-map h2 {
         font-size: 30px;
     }
-    .container-forms{
+
+    .container-forms {
         height: 600px;
     }
-    .container-form{
-        display: block;      
+
+    .container-form {
+        display: block;
     }
-    .container-forms-contacts-1{
+
+    .container-forms-contacts-1 {
         width: 100%;
     }
-    .container-forms-contacts-2{
+
+    .container-forms-contacts-2 {
         width: 100%;
     }
 
 
 }
 
-@media (max-width:1024px){
-    input.input2{       
+@media (max-width:1024px) {
+    input.input2 {
 
         width: 170px;
 
     }
-    input.input{
+
+    input.input {
         width: 170px;
 
     }
