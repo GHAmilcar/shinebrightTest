@@ -272,10 +272,7 @@ button.btn-form {
 }
 
 @media(max-width:425px) {
-    .container-contacts {
-        padding: 170px 0px;
-        width: 100%;
-    }
+
     .section-container-contact-form {
         padding: 0px;
     }
@@ -284,9 +281,9 @@ button.btn-form {
         padding: 0px;
     }
 
-    /* .container-form{
-        padding: 0px;
-    } */
+    .container-contacts{
+        margin-top: -50px;
+    }
 
     .container-forms-forms-map h2 {
         font-size: 25px;
@@ -301,7 +298,7 @@ button.btn-form {
         display: block;
     }
     .inputs-two{
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     textarea.textarea {
