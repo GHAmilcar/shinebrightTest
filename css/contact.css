@@ -363,6 +363,10 @@ button.btn-form {
 }
 
 @media (max-width:1024px) {
+    .container-contacts {
+        padding: 250px 40px;
+        width: 100%;
+    }
     input.input2 {
 
         width: 170px;
