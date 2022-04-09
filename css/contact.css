@@ -368,13 +368,33 @@ button.btn-form {
         width: 100%;
     }
     input.input2 {
-
         width: 170px;
-
     }
 
     input.input {
         width: 170px;
 
+    }
+    .section-container-contact-form{
+        height: 1500px;
+    }
+    .container-forms-forms{
+        display: block;
+        width: 100%;
+    }
+    .container-forms-forms-map{
+        width: 100%;
+        justify-content: none;
+        padding: 10px 100px;
+    }
+    .container-forms-forms-location{
+        width: 100%;
+    }
+    .container-forms-contacts-1 {
+        width: 100%;
+    }
+
+    .container-forms-contacts-2 {
+        width: 100%;
     }
 }
