@@ -1,8 +1,10 @@
 #container-slider
 {
+    max-width: 1440px;
     position: relative;
     display: block;
     width: 100%;
+    margin-top: 5%;
 }
 #slider {
     position: relative;
@@ -44,7 +46,7 @@
 }
 .content_slider{
     padding: 15px 30px;
-    color: #FFF;
+    color: #323a56;
     width: 100%;
     height: 100%;
 }
@@ -127,6 +129,7 @@
 }
 
 @media screen and (max-width: 460px){
+
 	.content_slider h2 {
 	    font-size: 15pt !important;
 	}
@@ -143,8 +146,8 @@
 		right: 15px !important;
 	}
 	#slider{
-		height: 400px;
-		min-height: 400px;
+		height: 200px;
+		min-height: 200px;
 	}
 	#slider li .content_slider{
 		padding: 10px 35px;
