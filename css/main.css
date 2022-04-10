@@ -616,7 +616,7 @@ div.more-button button:hover {
 .container-section-services {
   max-width: 1440px;
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-color: #E5E5E5;
 }
 .container-letters-services{
@@ -627,11 +627,13 @@ div.more-button button:hover {
   text-align: center;
 }
 .container-letters-services h2{
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: 'Abel', sans-serif;
+  letter-spacing: 5px;
 }
+
 .container-letters-services p{
   font-size: 18px;
 }
@@ -665,7 +667,7 @@ div.more-button button:hover {
   width: 100%;
   height: 70px;
   text-align: center;
-  padding: 5px 0px;
+  padding: 25px 0px;
 }
 .container-btn-service a button{
   height: 50px;
@@ -674,10 +676,34 @@ div.more-button button:hover {
   background-color: #cc900d;
   border-radius: 25px;
   border: none;
+  text-transform: uppercase;
 }
-
 /* SECTION SERVICES */
 
+
+/* SECTION WHY US */
+.container-why-choose-us{
+  max-width: 1440px;
+  width: 100%;
+  background-color: white;
+  height: 500px;
+}
+.container-text-why-choose-us{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.container-why-experiences{
+  width: 100%;
+  height: 200px;
+}
+.container-container-why{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+}
+/* SECTION WHY US */
 
 /* FOOTER  */
 
