@@ -702,6 +702,19 @@ div.more-button button:hover {
   height: 100%;
   text-align: center;
   display: flex;
+  padding: 20px 0px;
+}
+.container-why{
+  width: 33%;
+  height: 100%;
+ padding: 20px 20px;
+}
+.container-why-img{
+  width: 50%;
+}
+.container-why img{
+  max-width: 70px;
+  height: 100%;
 }
 /* SECTION WHY US */
 
