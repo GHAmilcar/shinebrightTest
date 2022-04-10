@@ -9,6 +9,17 @@
     /* background-size: cover; */
 }
 
+/* other background */
+.container-section-contact-2 {
+    margin-top: 5%;
+    max-width: 1440px;
+    width: 100%;
+    background-image: url(../images/form-back.jpg);
+    height: 630px;
+    padding: 0px 0px;
+}
+/* other background */
+
 .container-contacts {
     padding: 250px 250px;
     width: 100%;
@@ -100,6 +111,7 @@
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .container-phone-number {
@@ -115,6 +127,8 @@
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
+
 }
 
 .container-whatsapp {
@@ -131,6 +145,8 @@
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    font-size: 16px;
+
 }
 
 .container-email {
@@ -146,6 +162,8 @@
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
+
 }
 
 a.styles-a {
