@@ -31,7 +31,7 @@
     -o-transition: opacity 1s;
     transition: opacity 1s;
     z-index: -1;
-    opacity: 0;
+    /* opacity: 0; */
 }
 #container-slider .arrowPrev, #container-slider .arrowNext{
     font-size: 30pt;
@@ -48,7 +48,7 @@
 }
 .content_slider{
     padding: 15px 30px;
-    color: #323a56;
+    color: #cc900d;
     width: 100%;
     height: 100%;
 }
