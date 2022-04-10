@@ -627,9 +627,10 @@ div.more-button button:hover {
   text-align: center;
 }
 .container-letters-services h2{
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 20px;
   text-transform: capitalize;
+  font-family: 'Abel', sans-serif;
 }
 .container-letters-services p{
   font-size: 18px;
@@ -637,20 +638,28 @@ div.more-button button:hover {
 .container-services{
   width: 100%;
   height: 360px;
+  text-align: center;
 }
 .container-service{
   width: 100%;
   display: flex;
   text-align: center;
-  padding: 0px 10px;
+  padding-left: 50px;
+  /* margin-left: 6%; */
+ 
 }
 .service-s{
-  width: 33.3%;
-  background-color: #cc900d;
+  width: 32%;
+  background-color: white;
   height: 350px;
 }
-
-
+.service-s img{
+  width: 100%;
+}
+.service-s p{
+  font-size: 18px;
+  text-transform: uppercase;
+}
 
 .container-btn-service{
   width: 100%;
