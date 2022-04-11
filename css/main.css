@@ -810,6 +810,65 @@ div.more-button button:hover {
 }
 /* SECTION INDUSTRIES */
 
+@media(max-width:425px){
+  .container-quote{
+    width: 100%;
+    padding: 20px 10px;
+  }
+    .container-content-quote{
+      display: block;
+      width: 100%;
+    }
+    .container-quote-two{
+      width: 100%;
+      padding: 5px 5px;
+    }
+    .container-quote-one{
+      width: 100%;
+      text-align: center;
+    }
+    .container-qoute-letters p{
+      font-size: 16px;
+    }
+    .container-section-services{
+      height: 1400px;
+    }
+    .container-services{
+      height: 1100px;
+      width: 100%;
+    }
+    .container-service{
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+    }
+    .service-s{
+      width: 100%;
+    }
+    .container-btn-service{
+      height: 100px;
+    }
+
+    .container-why-choose-us{
+      height: 900px;
+    }
+    .container-text-why-choose-us{
+      height: 400px;
+    }
+    .container-why-experiences{
+      height: 200px;
+    }
+    .container-container-why{
+      width: 100%;
+      display: block;
+    }
+    .container-why{
+      width: 100%;
+    }
+
+}
+
 /* FOOTER  */
 
 footer {
