@@ -2,7 +2,7 @@
     max-width: 1440px;
     width: 100%;
     height: 750px;
-    background-image: url(../images/computer-1185626_1920.jpg);
+    background-image: url(../images/couch-1845270_1920.jpg);
     background-size: cover; 
 }
 
@@ -288,6 +288,9 @@ button.btn-form {
 }
 
 @media(max-width:425px) {
+    .container-section-contact{
+        background-image: url(../img/sliderback.jpg);
+    }
 
     .container-contacts-h2-p h2{
         text-shadow: 0px 0px 15px #000;
