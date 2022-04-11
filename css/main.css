@@ -863,7 +863,12 @@ div.more-button button:hover {
     .container-btn-service{
       height: 100px;
     }
-
+    .container-text-why-choose-us h2{
+      font-size: 20px;
+    }
+    .container-text-why-choose-us p{
+      font-size: 16px;
+    }
     .container-why-choose-us{
       height: 1000px;
       margin-bottom: 1%;
@@ -882,17 +887,18 @@ div.more-button button:hover {
       width: 100%;
     }
     .container-section-industries{
-      height: 1700px;
+      height: 100%;
+    
     }
     .container-industries{
-      height: 1420px;
+      height: 1080px;
       width: 100%;
     }
     .container-industry{
       display: block;
       width: 100%;
       text-align: center;
-      padding: 0px;
+      padding: 10px 40px;
     }
     .container-letters-industries{
       padding: 10px 40px;
@@ -904,6 +910,7 @@ div.more-button button:hover {
       font-size: 16px;
     }
     .service-i{
+      height: 100%;
       width: 100%;
     }
     .container-btn-industry{
@@ -911,6 +918,7 @@ div.more-button button:hover {
       padding: 0px 0px;
       margin: 0px;
     }
+    
 
 }
 
