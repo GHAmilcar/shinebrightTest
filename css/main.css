@@ -866,6 +866,27 @@ div.more-button button:hover {
     .container-why{
       width: 100%;
     }
+    .container-section-industries{
+      height: 1700px;
+    }
+    .container-industries{
+      height: 1420px;
+      width: 100%;
+    }
+    .container-industry{
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+    }
+    .service-i{
+      width: 100%;
+    }
+    .container-btn-industry{
+      height: 100px;
+      padding: 0px 0px;
+      margin: 0px;
+    }
 
 }
 
