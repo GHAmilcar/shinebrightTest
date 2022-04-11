@@ -289,11 +289,11 @@ button.btn-form {
 
 @media(max-width:425px) {
     .container-section-contact{
-        background-image: url(../img/sliderback.jpg);
+        background-image: url(../img/fondoWho\ \(2\).jpg);
     }
 
     .container-contacts-h2-p h2{
-        text-shadow: 0px 0px 15px #000;
+        /* text-shadow: 0px 0px 15px #000; */
       }
       .container-contacts-h2-p span{
         text-shadow: 0px 0px 15px #cc900d;
