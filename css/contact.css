@@ -292,8 +292,15 @@ button.btn-form {
         background-image: url(../img/fondoWho\ \(2\).jpg);
     }
 
+    .container-contacts-h2-p{
+        margin-top: -60px;
+
+      }
     .container-contacts-h2-p h2{
-        /* text-shadow: 0px 0px 15px #000; */
+        font-size: 30px;
+        text-align: justify;
+        text-transform: uppercase;
+
       }
       .container-contacts-h2-p span{
         text-shadow: 0px 0px 15px #cc900d;
@@ -301,6 +308,15 @@ button.btn-form {
       .container-contacts-h2-p p{
          font-size: 16px;
          color: black;
+         text-align: justify;
+      }
+      .container-contacts-h2-p{
+          padding-right: 50px;
+          text-align: justify;
+      }
+      .container-contacts-h2-p a button{
+          height: 45px;
+          width: 170px;
       }
 
     .section-container-contact-form {
