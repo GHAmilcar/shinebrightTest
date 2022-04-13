@@ -301,6 +301,7 @@ button.btn-form {
         font-size: 30px;
         text-align: justify;
         text-transform: uppercase;
+        
 
       }
       .container-contacts-h2-p span{
@@ -318,6 +319,7 @@ button.btn-form {
       .container-contacts-h2-p a button{
           height: 45px;
           width: 170px;
+          background-color: #142d3b;
       }
 
     .section-container-contact-form {

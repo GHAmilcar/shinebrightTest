@@ -844,6 +844,7 @@ div.more-button button:hover {
     .container-quote{
      width: 100%;
      padding: 20px 10px;
+     background-color: #142d3b;
   }
     .container-content-quote{
       display: block;
@@ -857,11 +858,20 @@ div.more-button button:hover {
       width: 100%;
       text-align: center;
     }
+    .container-qoute-letters h2{
+      color: #C7C7C7;
+    }
     .container-qoute-letters p{
-      font-size: 14px;
+      padding: 5px;
+      font-size: 12px;
+      color: white;
     }
     .container-btn-service{
       font-size: 14px;
+    }
+    .container-quote-btn a button{
+      height: 45px;
+      width: 170px;
     }
     .container-section-services{
       height: 1300px;
