@@ -838,6 +838,7 @@ div.more-button button:hover {
     .container-section{
       height: 450px;
       padding: 0px 0px;
+      filter:opacity(15px);
     }
 
     .container-quote{
