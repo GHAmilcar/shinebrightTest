@@ -459,7 +459,22 @@ div.more-button button:hover {
   width: 100%;
   height: 800px;
   background-image: url(../images/fondoindexx.jpg);
+  animation:slide 20s infinite;
 
+}
+@keyframes slide {
+  25%{
+    background-image: url(/images/pexelsphoto3149942.jpeg);
+  }
+  50%{
+    background-image: url(../images/fondoindexx.jpg);
+  }
+  75%{
+      background-image: url(/images/computer-1185626_1920.jpg);
+  }
+  100%{
+      background-image: url(/images/couch-1845270_1920.jpg);
+  }
 }
 
 .container-contacts-cover {
