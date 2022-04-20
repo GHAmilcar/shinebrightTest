@@ -2,7 +2,7 @@
     max-width: 1440px;
     width: 100%;
     height: 1600px;
-    background-color: aqua;
+    background-color: #f2f2f2;
     padding: 25px 20px;
 
 }
@@ -10,7 +10,7 @@
     max-width: 1440px;
     width: 100%;
     height: 33%;
-    background-color: blue;
+    /* background-color: blue; */
     height: 510px;
     margin-bottom: 1%;
     padding: 5px 5px;
@@ -20,14 +20,51 @@
 .container-back-2{
     width: 49.8%;
     height: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     padding: 35px 20px;
     display: flex;
 }
 .container-1{
     width: 50%;
     height: 100%;
-    background-color: brown;
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.container-1 h2{
+    font-family: inherit;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.container-1 h4{
+    font-size: 16px;
+    color: #142d3b;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.container-1 span{
+    color: #cc900d;
+}
+.container-1 i{
+    color: #cc900d;
+}
+.container-1 p{
+    font-size: 16px;
+    font-family: 'Roboto Serif', serif;
+}
+.container-1 a button{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: #cc900d;
+    background: -webkit-linear-gradient(to right, #cc900d, #d89b17ce);
+    background: linear-gradient(to right, #cc900d, #d89b17ce);
+    height: 50px;
+    width: 140px;
+    border: none;
+    text-transform: capitalize;
 }
 
 .container-2{
@@ -35,3 +72,62 @@
     height: 100%;
     background-color: blueviolet;
 }
+.container-2 img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:768px){
+    .container-hover-industries{
+        height: 2500px;
+    }
+    .container-back-2{
+        display: block;
+        height: 750px;
+        padding: 10px 10px;
+    }
+    .container-1{
+        width: 100%;
+        height: 50%;
+    }
+    .container-2{
+        width: 100%;
+        height: 50%;
+    }
+}
+@media (max-width:1024px){
+    .container-hover-industries{
+        padding: 5px 5px;
+    }
+    .container-back{
+        height: 33%;
+        padding: 0px 0px;
+    }
+    .container-back-2{
+        padding: px 0px;
+    }
+}
+@media (max-width:425px){
+    .container-hover-industries{
+        height: 4980px;
+    }
+    .container-back{
+        display: block;
+        padding-bottom: 5px;
+    }
+    .container-back-2{
+        width: 100%;
+        display: block;
+        height: 800px;
+        padding: 10px 10px;
+    }
+    .container-1{
+        width: 100%;
+        height: 50%;
+    }
+    .container-2{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+
