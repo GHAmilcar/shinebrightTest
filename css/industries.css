@@ -1,9 +1,13 @@
+
+
+
+/* ALL SERVICES */
 .container-hover-industries{
     max-width: 1440px;
     width: 100%;
     height: 1600px;
     background-color: #f2f2f2;
-    padding: 25px 20px;
+    /* padding: 25px 20px; */
 
 }
 .container-back{
@@ -11,8 +15,7 @@
     width: 100%;
     height: 33%;
     /* background-color: blue; */
-    height: 510px;
-    margin-bottom: 1%;
+    height: 530px;
     padding: 5px 5px;
     display: flex;
     justify-content: space-between;
@@ -21,7 +24,7 @@
     width: 49.8%;
     height: 100%;
     /* background-color: antiquewhite; */
-    padding: 35px 20px;
+    padding: 10px 10px;
     display: flex;
 }
 .container-1{
@@ -78,7 +81,31 @@
 }
 @media (max-width:768px){
     .container-hover-industries{
-        height: 2500px;
+        height: 2000px;
+    }
+    .container-back{
+        height: 750px;
+    }
+    .container-back-2{
+        display: block;
+        height: 100%;
+        padding: 10px 10px;
+    }
+    .container-1{
+        width: 100%;
+        height: 100%;
+    }
+    .container-2{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:1024px){
+    .container-hover-industries{
+        height: 2300px;
+    }
+    .container-back{
+        height: 750px;
     }
     .container-back-2{
         display: block;
@@ -94,31 +121,20 @@
         height: 50%;
     }
 }
-@media (max-width:1024px){
-    .container-hover-industries{
-        padding: 5px 5px;
-    }
-    .container-back{
-        height: 33%;
-        padding: 0px 0px;
-    }
-    .container-back-2{
-        padding: px 0px;
-    }
-}
 @media (max-width:425px){
     .container-hover-industries{
-        height: 4980px;
+        height: 4830px;
     }
     .container-back{
         display: block;
         padding-bottom: 5px;
+        height: 1600px;
     }
     .container-back-2{
         width: 100%;
         display: block;
         height: 800px;
-        padding: 10px 10px;
+        padding: 10px 20px;
     }
     .container-1{
         width: 100%;
