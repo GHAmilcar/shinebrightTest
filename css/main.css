@@ -459,22 +459,14 @@ div.more-button button:hover {
   width: 100%;
   height: 800px;
   background-image: url(../images/fondoindexx.jpg);
-  animation: slide 20s infinite  linear alternate;
+  animation: movimiento 10s infinite linear alternate;
 }
-
-@keyframes slide{
-  25%{
-      background: url(../images/computer-1185626_1920.jpg);
-  }
-  50%{
-
-  }
-  75%{
-
-  }
-  100%{
-
-  }
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
 }
 
 .container-contacts-cover {
