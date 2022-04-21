@@ -21,8 +21,8 @@
 .container-cover-industry{
     width: 100%;
     height: 100%;
-    background-color: #142d3b;
-    padding: 20px 20px;
+    background-color: #142d3b9a;
+    padding: 30px 20px;
 }
 .container-cover-industry h4{
     font-size: 25px;
@@ -34,13 +34,16 @@
     font-size: 45px;
     font-weight: 800;
     color: aliceblue;
+    padding-bottom: 20px;
 }
 .container-cover-industry a button{
-    height: 50px;
+    height: 60px;
     width: 200px;
     border: none;
     color: #f2f2f2;
-    background-color: #cc900d;
+    background: #cc900d;
+    background: -webkit-linear-gradient(to right, #cc900d, #d89b17ce);
+    background: linear-gradient(to right, #cc900d, #d89b17ce);
 }
 
 .container-all{
@@ -56,10 +59,21 @@
     justify-content: space-between;
 }
 .container-services{
-    width: 33%;
+    width: 33.3%;
     height: 100%;
     background-color: #cc900d;
+    padding: 40px 20px;
 }
+.container-services i{
+    font-size: 45px;
+    color: #142d3b;
+    box-shadow: 0px 0px 10px #142d3b;
+    padding-bottom: 15px;
+}
+.container-services h2{
+    font-size: 22px;
+}
+
 
 /* ALL SERVICES */
 .container-hover-industries{
@@ -160,6 +174,30 @@
         width: 100%;
         height: 100%;
     }
+    .container-all{
+        height: 200px;
+        padding: 30px 30px;
+        padding-top: 15%;
+    }
+    .container-services{
+        height: 120px;
+        padding: 30px 10px;
+    }
+    .container-services i{
+        font-size: 25px;
+    }
+    .container-services h2{
+        font-size: 20px;
+    }
+    .container-cover-industry h2{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .container-cover-industry a button{
+        height: 45px;
+        width: 140px;
+    }
+
 }
 @media (max-width:1024px){
     .container-hover-industries{
@@ -180,6 +218,15 @@
     .container-2{
         width: 100%;
         height: 50%;
+    }
+    .container-all{
+        margin-top: 17%;
+    }
+    .container-services{
+        width: 33%;
+    }
+    .container-cover{
+        padding-right: 30%;
     }
 }
 @media (max-width:425px){
@@ -204,6 +251,30 @@
     .container-2{
         width: 100%;
         height: 50%;
+    }
+    .container-cover-industries{
+        height: 550px;
+    }
+    .container-cover-industry h4{
+        font-size: 16px;
+    }
+    .container-cover-industry h2{
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .container-all{
+        margin-bottom: 5%;
+    }
+    .container-services {
+        height: 100px;
+        padding: 20px 20px;
+    }
+    .container-services i{
+        font-size: 15px;
+        width: 25px;
+    }
+    .container-services h2{
+        font-size: 18px;
     }
 }
 
