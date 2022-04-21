@@ -240,17 +240,20 @@
 @media (max-width:425px){
     .container-hover-industries{
         height: 4830px;
+        padding: 5px 0px;
     }
     .container-back{
         display: block;
         padding-bottom: 5px;
         height: 1600px;
+        padding: 0px 0px;
+        
     }
     .container-back-2{
         width: 100%;
         display: block;
         height: 800px;
-        padding: 10px 20px;
+        padding: 10px 5px;
     }
     .container-1{
         width: 100%;
@@ -287,6 +290,7 @@
     .container-services h2{
         font-size: 18px;
     }
+  
 }
 
 
