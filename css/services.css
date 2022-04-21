@@ -123,15 +123,16 @@
         margin: 0;
         width: 100%;
         height: 230px;
-        background-color: #0e1d27c5;
+        background-color: #b6810e;
         padding: 30px;
     }
     .container-explain-text h2{
-        font-size: 20px;
-        color: #f2f2f2;
+        font-size: 25px;
+        color: white;
+        text-transform: capitalize;
     }
     .container-explain-text p{
-        font-size: 16px;
+        font-size: 18px;
         color: white;
     }
     .container-explain-text-3{
