@@ -857,6 +857,7 @@ div.more-button button:hover {
      width: 100%;
      padding: 20px 10px;
      background-color: #142d3b;
+     height: 170px;
   }
     .container-content-quote{
       display: block;
@@ -872,6 +873,7 @@ div.more-button button:hover {
     }
     .container-qoute-letters h2{
       color: #C7C7C7;
+      
     }
     .container-qoute-letters p{
       padding: 5px;

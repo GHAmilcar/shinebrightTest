@@ -304,10 +304,16 @@ button.btn-form {
 
     .container-contacts-h2-p{
         margin-top: -60px;
+        padding-right: 1%;
+        height: 230px;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 5px;
+        
 
       }
     .container-contacts-h2-p h2{
-        font-size: 30px;
+        font-size: 40px;
         text-align: justify;
         text-transform: uppercase;
         
@@ -317,7 +323,7 @@ button.btn-form {
         text-shadow: 0px 0px 15px #cc900d;
       }
       .container-contacts-h2-p p{
-         font-size: 16px;
+         font-size: 18px;
          color: black;
          text-align: justify;
       }
@@ -328,7 +334,7 @@ button.btn-form {
       .container-contacts-h2-p a button{
           height: 45px;
           width: 170px;
-          background-color: #142d3b;
+          background-color: #cc900d;
       }
 
     .section-container-contact-form {
