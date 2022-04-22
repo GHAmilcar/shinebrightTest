@@ -135,7 +135,12 @@ html{
         font-size: 23px;
     }
     .container-industry-text{
-        height: 210px;
+        height: 200px;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    .container-industry-text p{
+        font-size: 16px;
     }
 
 }
