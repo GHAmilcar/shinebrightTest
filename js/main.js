@@ -25,7 +25,7 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
-// slider comentarios 
+// slider comentarios
 if(document.querySelector('#container-slider')){
     setInterval('fntExecuteSlide("next")',5000);
  }
@@ -42,21 +42,21 @@ if(document.querySelector('#container-slider')){
        });
      });
  }
- 
+
  function fntExecuteSlide(side){
      let parentTarget = document.getElementById('slider');
      let elements = parentTarget.getElementsByTagName('li');
      let curElement, nextElement;
- 
+
      for(var i=0; i<elements.length;i++){
- 
+
          if(elements[i].style.opacity==1){
              curElement = i;
              break;
          }
      }
      if(side == 'prev' || side == 'next'){
- 
+
          if(side=="prev"){
              nextElement = (curElement == 0)?elements.length -1:curElement -1;
          }else{
@@ -65,7 +65,7 @@ if(document.querySelector('#container-slider')){
      }else{
          nextElement = side;
          side = (curElement > nextElement)?'prev':'next';
- 
+
      }
      //RESALTA LOS PUNTOS
      let elementSel = document.getElementsByClassName("listslider")[0].getElementsByTagName("a");
@@ -76,4 +76,5 @@ if(document.querySelector('#container-slider')){
      elements[nextElement].style.opacity=1;
      elements[nextElement].style.zIndex =1;
  }
+
 
