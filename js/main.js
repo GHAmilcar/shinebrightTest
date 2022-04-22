@@ -76,3 +76,4 @@ if(document.querySelector('#container-slider')){
      elements[nextElement].style.opacity=1;
      elements[nextElement].style.zIndex =1;
  }
+

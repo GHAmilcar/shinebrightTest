@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+}
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+    flex-shrink: 0;
+    background-image: url(../images/computer-1185626_1920.jpg);
+   
+    
+}
+
+.contenido-slider:nth-child(2){
+    background-image: url(../images/fondoindexx.jpg);
+    width: 100%;
+    color: #000;
+}
+
+.contenido-slider:nth-child(3){
+    background-image: url(../images/couch-1845270_1920.jpg);
+    width: 100%;
+    color: #000;
+}
+.contenido-slider:nth-child(4){
+    background-image: url(../images/form-back.jpg);
+    width: 100%;
+    color: #000;
+}
+
+.container-desc{
+    width: 100%;
+    height: 300px;
+    padding-right:  35%;
+}
+
+.contenido-slider h1{
+    font-size: 40px;
+}
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: #fff;
+    background: #cc900d;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contenido-slider:nth-child(2) a{
+    color: #000;
+    
+}
+
+/* LIST */
+
+.container-list ul {
+    list-style: none;
+}
+
+.container-list ul li a{
+    background: none;
+    color: #000;    
+}
+
+@media screen and (max-width:900px){
+
+    .contenido-slider{
+        padding-right: 30%;
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top: -50px;
+    }
+    .container-desc{
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 5%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .contenido-slider{
+        padding-right: 0%;
+        padding-left: 0%;
+        height: 520px;
+    }
+    .container-desc{
+        width: 100%;
+        padding-right: 15%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
+
+}

@@ -45,6 +45,9 @@
     color: aliceblue;
     padding-bottom: 20px;
 }
+.container-cover-industry h4 span{
+    color: #cc900d;
+}
 .container-cover-industry a button{
     height: 60px;
     width: 200px;
