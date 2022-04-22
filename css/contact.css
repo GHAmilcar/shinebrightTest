@@ -332,9 +332,10 @@ button.btn-form {
           text-align: justify;
       }
       .container-contacts-h2-p a button{
-          height: 45px;
-          width: 170px;
+          height: 50px;
+          width: 180px;
           background-color: #cc900d;
+          border-radius: 30px;
       }
 
     .section-container-contact-form {
