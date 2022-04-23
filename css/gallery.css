@@ -28,3 +28,11 @@
     width: 100%;
 
 }
+@media (max-width:600px){
+    .container-gallery-items{
+        display: block;
+    }
+    .container-gallery-item{
+        width: 100%;
+    }
+}
