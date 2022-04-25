@@ -64,6 +64,22 @@ a.logo-let{
   width: 40px;
 }
 
+.nombre-logo-logo{
+  margin-left: -110px;
+
+}
+nav .navbar .nombre-logo-logo h4{
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+nav .navbar .nombre-logo-logo h4 span{
+  color: #cc900d;
+}
+nav .navbar  .nombre-logo-logo p{
+  font-weight: 600;
+}
+
 nav .navbar .nav-links {
   line-height: 70px;
   height: 100%;
@@ -88,7 +104,7 @@ nav .navbar .links li a {
   white-space: nowrap;
   color: #000;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -247,7 +263,9 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 @media (max-width:1024px) {
-
+  .nombre-logo-logo{
+    display: none;
+  }
   .navbar .bx-menu {
     display: block;
   }
@@ -272,6 +290,7 @@ nav .navbar .links li:hover .js-sub-menu {
     align-items: center;
     justify-content: space-between;
   }
+
 
   .sidebar-logo .logo-name {
     font-size: 25px;
