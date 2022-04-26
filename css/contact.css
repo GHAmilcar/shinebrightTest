@@ -127,14 +127,11 @@
     .container-contacts-h2-p p{
         font-size: 20px;
     }
-   
-
-
 }
 
 @media (max-width:1024px) {
     .container-section-contact{
-        padding-top: 5%;
+        padding-top: 18%;
     }
     .container-contacts {
         padding: 250px 40px;
