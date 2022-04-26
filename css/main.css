@@ -106,6 +106,7 @@ nav .navbar .links li a {
   font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
+ 
 }
 
 .links li:hover .htmlcss-arrow,
@@ -863,6 +864,11 @@ div.more-button button:hover {
   }
   .instagram{
     display: flex;
+    justify-content: space-evenly;
+  }
+  .instagram i{
+    font-size: 30px;
+    color: #cc900d;
   }
   .instagram img{
     width: 60px;
