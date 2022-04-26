@@ -1,8 +1,9 @@
 .container-section-contact {
+    margin-top: 15%;
     max-width: 1440px;
     width: 100%;
     height: 750px;
-    background-image: url(../images/couch-1845270_1920.jpg);
+    background-image: url(../images/computer-1185626_1920.jpg);
     background-size: cover; 
     animation: movimiento 10s infinite linear alternate;
 }
@@ -25,7 +26,7 @@
 /* other background */
 
 .container-contacts {
-    padding: 100px 0px;
+    padding: 10px 0px;
     width: 100%;
     text-align: center;
 }
@@ -55,7 +56,6 @@
     height: 60px;
     width: 220px;
     font-size: 22px;  
-    position: center center;
     border: 2px solid #cc900d;
     color: white;
     background-color: transparent;
@@ -309,21 +309,18 @@ button.btn-form {
     }
 
     .container-contacts-h2-p{
-        margin-top: -60px;
-        padding-right: 5px;
-        height: 230px;
-        width: 100%;
-        padding-top: 25px;
-        padding-left: 25px;
-        background-color: #cc900d44;
-
-        
-
+       
+        padding: 20px 20px;
+        height: 270px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.473);
+        margin-left: -30px;
       }
     .container-contacts-h2-p h2{
-        font-size: 30px;
-        text-align: justify;
-        text-transform: uppercase;
+        font-size: 18px;
+        text-align: left;
+        text-transform: capitalize;
+        color: white;
         
 
       }
@@ -331,21 +328,17 @@ button.btn-form {
         text-shadow: 0px 0px 15px #cc900d;
       }
       .container-contacts-h2-p p{
-         font-size: 18px;
-         color: black;
-         text-align: justify;
+         font-size: 25px;
+         color: white;
+         text-align: left;
       }
-      .container-contacts-h2-p{
-          padding-right: 50px;
-          text-align: justify;
-      }
+
       .container-contacts-h2-p a button{
-          height: 50px;
-          width: 180px;
+          height: 40px;
+          width: 140px;
           background-color: #cc900d;
-          border-radius: 30px;
-          border: 1px solid #cc900d;
           font-size: 16px;
+          
       }
 
     .section-container-contact-form {
@@ -357,7 +350,9 @@ button.btn-form {
     }
 
     .container-contacts{
-        margin-top: -50px;
+        margin-top: -90px;
+        padding: 0px 0px;
+        text-align: left;
     }
 
     .container-forms-forms-map h2 {
