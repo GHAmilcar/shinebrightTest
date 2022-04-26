@@ -490,6 +490,30 @@ div.more-button button:hover {
     }
 }
 
+.container-index{
+  text-align: center;
+}
+.container-index h2{
+  font-size: 70px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+}
+.container-index h2 span{
+  color: #cc900d;
+}
+.container-index p{
+  font-size: 35px;
+}
+.container-index a button{
+  height: 45px;
+  width: 160px;
+  border: none;
+  color: white;
+  background-color: #cc900d;
+}
+
+
 .container-contacts-cover {
   display: flex;
   width: 100%;
@@ -859,8 +883,30 @@ div.more-button button:hover {
 
 
 @media (max-width:1024px){
-  .container-section{
-    padding-top: 0%;
+  .container-index{
+    text-align: center center;
+    padding-top: 10%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .container-index h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+  }
+  .container-index h2 span{
+    color: #cc900d;
+  }
+  .container-index p{
+    font-size: 25px;
+  }
+  .container-index a button{
+    height: 50px;
+    width: 160px;
+    border: none;
+    color: white;
+    background-color: #cc900d;
   }
   .instagram{
     display: flex;
@@ -876,11 +922,35 @@ div.more-button button:hover {
   }
 } 
 @media (max-width:425px){
+  .container-section{
+    height: 550px;
+  }
 
-    .container-section{
-      height: 550px;
-      padding-top: 0%;
-    }
+  .container-index{
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 30%;
+  }
+  .container-index h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+  }
+  .container-index h2 span{
+    color: #cc900d;
+  }
+  .container-index p{
+    font-size: 20px;
+  }
+  .container-index a button{
+    height: 40px;
+    width: 130px;
+    border: none;
+    color: white;
+    background-color: #cc900d;
+  }
 
     .container-quote{
      width: 100%;
@@ -1018,6 +1088,9 @@ div.more-button button:hover {
       margin: 0px;
     }
     
+
+}
+@media (max-width:375px){
 
 }
 
