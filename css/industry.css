@@ -172,7 +172,7 @@ ul.tabs li a .tab-text{
 	}
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
 	ul.tabs li a{
 		padding: 15px 0px;
 	}
@@ -184,6 +184,9 @@ ul.tabs li a .tab-text{
 	.secciones article{
 		padding: 20px;
 	}
+    .container-steps p{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:900px){
