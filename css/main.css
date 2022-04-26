@@ -475,7 +475,7 @@ div.more-button button:hover {
 
 /* cover section */
 .container-section {
-  padding-top: 10%;
+  padding-top: 20%;
   max-width: 1440px;
   width: 100%;
   height: 800px;
@@ -875,11 +875,11 @@ div.more-button button:hover {
     height: 60px;
   }
 } 
-@media(max-width:425px){
+@media (max-width:425px){
 
     .container-section{
       height: 550px;
-      padding: 0px 0px;
+      padding-top: 0%;
     }
 
     .container-quote{

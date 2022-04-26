@@ -105,68 +105,22 @@
 }
 @media(max-width:425px) {
     .container-section-contact{
-
         height: 550px;
-        background-image: url(../img/fondoWho\ \(2\).jpg);
+        padding-top: 0%;
     }
-
-    .container-contacts-h2-p{
-       
-        padding: 20px 20px;
-        height: 270px;
-        width: 80%;
-        background-color: rgba(0, 0, 0, 0.473);
-        margin-left: -30px;
-      }
-    .container-contacts-h2-p h2{
-        font-size: 18px;
-        text-align: left;
-        text-transform: capitalize;
-        color: white;
-        
-
-      }
-      .container-contacts-h2-p span{
-        text-shadow: 0px 0px 15px #cc900d;
-      }
-      .container-contacts-h2-p p{
-         font-size: 25px;
-         color: white;
-         text-align: left;
-      }
-
-      .container-contacts-h2-p a button{
-          height: 40px;
-          width: 140px;
-          background-color: #cc900d;
-          font-size: 16px;
-          
-      }
-
-    .section-container-contact-form {
-        padding: 0px;
-    }
-
-    .container-forms {
-        padding: 0px;
-    }
-
     .container-contacts{
-        margin-top: -90px;
-
-        text-align: left;
+      margin-top: 0%;
     }
-
-
-
-
+    .container-contacts-h2-p{
+        margin-top: -10%;
+    }
+   
 }
 
 @media (max-width:768px) {
 
 
     .container-contacts {
-
         margin-top: 20px;
         width: 100%;
     }
