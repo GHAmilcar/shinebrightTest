@@ -100,9 +100,12 @@
 .container-form-map{
    width: 100%;
    align-content: center;
-   background-color: #cc900d;
-   text-align: center;
+   /* background-color: #cc900d; */
+   padding-left: 20%;
+   padding-top: 20px;
+   padding-bottom: 20px;  
 }
+
 @media(max-width:425px) {
 
     .container-section-contact{
