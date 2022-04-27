@@ -129,7 +129,7 @@ ul.tabs{
 }
 
 ul.tabs li{
-	width: 25%;
+	width: 33.3%;
 }
 
 ul.tabs li a{
@@ -163,6 +163,10 @@ ul.tabs li a .tab-text{
 .secciones article p{
 	text-align: justify;
 }
+.container-tab2-description{
+    width: 100%;
+    padding: 20px 15px;
+}
 
 @media screen and (max-width: 700px){
 	ul.tabs li{
@@ -186,6 +190,15 @@ ul.tabs li a .tab-text{
 	}
     .container-steps p{
         font-size: 12px;
+    }
+    .container-tab2-description{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container-tab2-description p{
+        font-size: 13px;
     }
 }
 
