@@ -78,9 +78,9 @@
 .container-contact-form{
     max-width: 1440px;
     width: 100%;
-    height: 1000px;
+    height: 630px;
     background-image: url(../images/form-back.jpg);
-    padding: 10px 10px;
+    padding: 15px 10px;
 }
 .networks-contact{
     display: flex;
@@ -107,15 +107,15 @@
 }
 input.input-style{
     width: 60%;
-    height: 30px;
-    margin-bottom: 5px;
+    height: 35px;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: none;
 }
 select.select-style{
     width: 60%;
-    height: 30px;
-    margin-bottom: 5px;
+    height: 35px;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: none;
 }
@@ -124,7 +124,7 @@ textarea.textarea-style{
     width: 60%;
     border-radius: 5px;
     border: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 button.btn{
     height: 40px;
