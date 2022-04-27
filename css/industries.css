@@ -174,24 +174,53 @@
 /* section before after */
     .container-before-father{
         width: 100%;
-        height: 1200px;
-        background-color: #000;
+        height: 1300px;
         
     }
     .container-after{
         width: 100%;
-        height: 400px;
-        background-color: #cc900d;
+        height: 415px;
         display: flex;
         justify-content: space-evenly;
-        padding: 10px 5px;
+        padding: 15px 5px;
     }
     .container-after-item{
         width: 49%;
         height: 100%;
-        background-color: #142d3b;
     }
 
+
+@media (max-width:1024px){
+
+    .container-back-2{
+        display: block;
+        height: 750px;
+        padding: 10px 10px;
+    }
+    .container-1{
+        width: 100%;
+        height: 50%;
+    }
+    .container-2{
+        width: 100%;
+        height: 50%;
+    }
+    .container-all{
+        margin-top: 17%;
+    }
+    .container-services{
+        width: 33%;
+    }
+    .container-cover{
+        padding-right: 30%;
+    }
+    .container-before-father{
+        height: 1000px;
+    }
+    .container-after{
+        height: 320px;
+    }
+}
 @media (max-width:768px){
     .container-hover-industries{
         padding: 10px 10px;
@@ -233,32 +262,13 @@
         height: 45px;
         width: 140px;
     }
+    .container-before-father{
+        height: 730px;
+    }
+    .container-after{
+        height: 240px;
+    }
 
-}
-@media (max-width:1024px){
-
-    .container-back-2{
-        display: block;
-        height: 750px;
-        padding: 10px 10px;
-    }
-    .container-1{
-        width: 100%;
-        height: 50%;
-    }
-    .container-2{
-        width: 100%;
-        height: 50%;
-    }
-    .container-all{
-        margin-top: 17%;
-    }
-    .container-services{
-        width: 33%;
-    }
-    .container-cover{
-        padding-right: 30%;
-    }
 }
 @media (max-width:425px){
 
@@ -338,6 +348,19 @@
     }
     .container-services h2{
         font-size: 18px;
+    }
+    .container-before-father{
+        height: 1575px;
+    }
+    .container-after{
+        display: block;
+        height: 525px;
+        margin-bottom: 0%;
+       
+    }
+    .container-after-item{
+        width: 100%;
+        height: 50%;
     }
   
 }
