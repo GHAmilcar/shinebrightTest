@@ -14,7 +14,9 @@
 body {
   min-height: 100vh;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .container-informations{
   max-width: 1440px;
   width: 100%;
@@ -513,6 +515,18 @@ div.more-button button:hover {
   background-color: #cc900d;
 }
 
+.upbutton{
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 12px;
+  background-color: #cc900dc4;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 1px;
+}
 
 .container-contacts-cover {
   display: flex;
