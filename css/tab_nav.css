@@ -32,41 +32,29 @@
 } 
 /* fin redes sociales tab nav */
 
-.container-gallery{
+/* Gallery tab */
+.gallery-container{
+    width: 80%;
+    margin:100px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(2,300px);
+}
+
+.gallery-container .gallery-card{overflow: hidden};
+
+.gallery-container .gallery-card a{
     width: 100%;
-    height: 100%;
+    height:100%;
 }
-.container-gallery-items{
-    display: flex;
-    margin-bottom: 2%;
-    justify-content: space-evenly;
-}
-.container-gallery-item{
-    width: 31%;
-}
-.container-gallery-item:hover{
+.gallery-container .gallery-card a > img{
     width: 100%;
-    transition: all 1s ease;
-}
-.container-gallery-item img{
-    max-width: 1000px;
-    width: 100%;
-    max-height: 550px;
-    height: 100%;
+    height:100%;
     object-fit: cover;
+    transition: 0.5s;
 }
-
-.container-gallery-item img:hover{
-    filter:brightness(50%);
-    transition: all 300ms ease;
-    width: 100%;
-
+.gallery-container .gallery-card a > img:hover{
+    transform: scale(1.5) rotate(30deg);
 }
-@media (max-width:600px){
-    .container-gallery-items{
-        display: block;
-    }
-    .container-gallery-item{
-        width: 100%;
-    }
-}
+/* fin gallery tab */
