@@ -166,8 +166,6 @@ button.btn{
     .container-form-map{
         width: 100%;
         align-content: center;
-        padding-right: 15%;
-        padding-left: 20%;
         justify-content: space-evenly;
      }
      input.input-style{
@@ -225,6 +223,15 @@ button.btn{
         align-content: center;
         padding-right: 1%;
         padding-left: 1%;
+        display: block;
+        margin-top: 5%;
+     }
+     .container-form{
+         height: 50%;
+         width: 100%;
+     }
+     .container-map{
+         display: none;
      }
      input.input-style{
         width: 100%;
