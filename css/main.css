@@ -1356,13 +1356,13 @@ div.more-button button:hover {
     }
     
     div.more-button button {
-      color: #f2f2f2;
-      height: 35px;
-      width: 110px;
+      color: white;
+      height: 40px;
+      width: 120px;
       border: 2px solid #f2f2f2;
       background-color: #cc900d;
       font-family: 'Roboto Serif', serif;
-      font-size: 13px;
+      font-size: 14px;
     }
     /* container-m-v */
     .container-m-v-father{
