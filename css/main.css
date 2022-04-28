@@ -263,6 +263,7 @@ nav .navbar .links li:hover .js-sub-menu {
   nav .navbar .links li a {
     font-size: 15px;
   }
+
 }
 
 @media (max-width:1024px) {
@@ -895,7 +896,56 @@ div.more-button button:hover {
 .instagram{
   display: none;
 }
+.container-image-let-father{
+  max-width: 1400px;
+  height: 420px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.container-image-let{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
 
+.container-letgo{
+  width: 49%;
+  height: 100%;
+  background-color: white;
+}
+.container-letgo img{
+  width: 100%;
+  height: 100%;
+}
+.container-letgo h2{
+  
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 20px;
+}
+.container-letgo p{
+  font-size: 13px;
+  font-family: 'Roboto Serif', serif;
+  margin-bottom: 3%;
+  padding: 4px 20px;
+
+}
+.container-letgo a {
+  padding: 4px 20px;
+
+}
+.container-letgo a button{
+  height: 35px;
+  width: 120px;
+  color: white;
+  background-color: #cc900d;
+  border: none;
+  font-size: 14px;
+}
 
 @media (max-width:1024px){
   .container-index{
@@ -937,55 +987,7 @@ div.more-button button:hover {
   }
 } 
 
-  .container-image-let-father{
-    max-width: 1400px;
-    height: 500px;
-    width: 100%;
-  }
-  .container-image-let{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    margin-bottom: 5%;
-    justify-content: space-evenly;
-    padding: 10px;
-  }
   
-  .container-letgo{
-    width: 49%;
-    height: 100%;
-    background-color: white;
-  }
-  .container-letgo img{
-    width: 100%;
-    height: 100%;
-  }
-  .container-letgo h2{
-    
-    font-size: 32px;
-    font-family: 'Abel', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 5px 30px;
-  }
-  .container-letgo p{
-    font-size: 14px;
-    font-family: 'Roboto Serif', serif;
-    margin-bottom: 3%;
-    padding: 5px 30px;
-
-  }
-  .container-letgo a {
-    padding: 5px 30px;
-
-  }
-  .container-letgo a button{
-    height: 40px;
-    width: 140px;
-    color: white;
-    background-color: #cc900d;
-    border: none;
-  }
 @media (max-width:425px){
   .container-section{
     height: 550px;
@@ -1153,6 +1155,46 @@ div.more-button button:hover {
       margin: 0px;
     }
     
+    /* about-about */
+    .container-image-let-father{
+      height: 650px;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    .container-image-let{
+      width: 100%;
+      height: 325px;
+      display: block;
+      justify-content: space-evenly;
+      padding: 10px;
+    }
+    
+    .container-letgo{
+      width: 100%;
+      height: 100%;
+      background-color: white;
+    }
+    .container-letgo img{
+     padding: 5px 30px; 
+    }
+    .container-letgo h2{
+      font-size: 20px;
+      padding: 5px 30px; 
+
+    }
+    .container-letgo p{
+      font-size: 12px;
+      padding: 5px 30px; 
+
+    }
+    .container-letgo a{
+      padding: 5px 30px;
+    }
+    .container-letgo a button{
+      height: 35px;
+      width: 120px;
+      font-size: 12px;
+    }
 
 }
 @media (max-width:375px){
