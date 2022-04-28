@@ -41,7 +41,6 @@
 	text-align: center;
 	color: #454545;
 }
-
 @media(max-width:425px){
 	.testimonial-text{
 		padding: 5px 20px;
