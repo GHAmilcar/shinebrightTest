@@ -667,12 +667,10 @@ div.more-button button:hover {
   color: #000;
   letter-spacing: 2px;
   font-size: 25px;
-  font-family: 'Abel', sans-serif;
 }
 
 .container-qoute-letters p {
-  color: #444;
-  font-family: 'Roboto Serif', serif;
+  color: #000;
   font-size: 17px;
 }
 
@@ -922,14 +920,12 @@ div.more-button button:hover {
 .container-letgo h2{
   
   font-size: 25px;
-  font-family: 'Abel', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   padding: 4px 20px;
 }
 .container-letgo p{
-  font-size: 13px;
-  font-family: 'Roboto Serif', serif;
+  font-size: 17px;
   margin-bottom: 3%;
   padding: 4px 20px;
 
@@ -1043,8 +1039,7 @@ div.more-button button:hover {
     }
     .container-qoute-letters p{
       padding: 5px;
-      font-size: 14px;
-      color: #a7750a;
+      font-size: 16px;
     }
     .container-btn-service{
       font-size: 14px;
@@ -1157,7 +1152,7 @@ div.more-button button:hover {
     
     /* about-about */
     .container-image-let-father{
-      height: 650px;
+      height: 770px;
       width: 100%;
       margin-bottom: 5%;
     }
@@ -1173,6 +1168,7 @@ div.more-button button:hover {
       width: 100%;
       height: 100%;
       background-color: white;
+      text-align:  center;
     }
     .container-letgo img{
      padding: 5px 30px; 
@@ -1183,7 +1179,7 @@ div.more-button button:hover {
 
     }
     .container-letgo p{
-      font-size: 12px;
+      font-size: 16px;
       padding: 5px 30px; 
 
     }
