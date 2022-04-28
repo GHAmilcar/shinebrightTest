@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="sss/sss.css">
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="img//logotype.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="sss/sss.js"></script>
@@ -74,7 +75,7 @@
   </nav>
 
     <section class="container-section">
-      <div class="container-index">
+      <div class="container-index" data-aos="fade-up">
             <h2>Shine<span> Bright </span>LLC.</h2>
             <p>Professional Residential and Commercial Cleaning Services</p>
               <br>
@@ -83,7 +84,7 @@
     </section>
     <!-- section quote -->
     <section class="container-quote">
-        <div  class="container-content-quote">
+        <div  class="container-content-quote" data-aos="fade-up">
             <div class="container-quote-two">
               <div class="container-quote-tel">
                 <a href="tel: +1(617)487-2734"><i class="fa-solid fa-phone-flip icon-form"></i></a>
@@ -104,7 +105,7 @@
       <a href="#top"><span><i class="upbutton fa-solid fa-angle-up"></i></span></a>
 
     <!-- section services -->
-      <section class="container-section-services">
+      <section class="container-section-services" data-aos="zoom-in">
         <div class="container-letters-services">
             <h2>our services</h2>           
             <p>With over 2 years experience and real focus on customer satisfaction, you can rely on us for your next house or commercial project!</p>
@@ -133,8 +134,9 @@
     <!-- section services -->
 
     <!-- why choose us -->
-      <section class="container-why-choose-us">
-          <div class="container-text-why-choose-us">
+      <section class="container-why-choose-us" data-aos="fade-up"
+      data-aos-duration="3000">
+          <div class="container-text-why-choose-us" >
             <h2>WHY CHOOSE US?</h2>
             <p>Every project we work on is an opportunity for us to bring our unique and individual approach to each
                and every single one of our clients. Our people bring their skills and expertise to collaborate together
@@ -176,7 +178,8 @@
     <!-- why choose us -->
 
         <!-- section industries -->
-        <section class="container-section-industries">
+        <section class="container-section-industries" data-aos="fade-up"
+        data-aos-duration="3000">
           <div class="container-letters-industries">
               <h2>some industries we serve</h2>
               
@@ -210,7 +213,9 @@
       <!-- section industries -->
 
           <!-- About us -->
-          <section class="container-why-choose-us">
+          <section class="container-why-choose-us" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <div class="container-text-why-choose-us">
               <h2>about US</h2>
               <p>Originally set up as purely facilities management, cleaning and maintenance company, we have progressed
@@ -252,7 +257,9 @@
       <!-- About us -->
 
       <!-- commets -->
-      <div class="wrapper">
+      <div class="wrapper" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <div class="slider-testimonial">
           <div class="testimonial-item">
             <div class="testimonial-client">
@@ -284,7 +291,10 @@
         </div>
       </div>
       <!-- more information -->
-      <section id="section-more-information">
+      <section id="section-more-information" data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="500">
         <div class="more-information">
              <h2>More information?</h2>
                  <h4>you need something more specific?</h4>
@@ -296,7 +306,8 @@
        
     <footer>
        
-      <div class="container-footer-all">
+      <div class="container-footer-all" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
        
            <div class="container-body">
 
@@ -368,5 +379,9 @@
        
    </footer>
    <script src="js/main.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>
