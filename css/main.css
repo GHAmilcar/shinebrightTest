@@ -810,9 +810,8 @@ div.more-button button:hover {
 .container-why-desc{
   width: 50%;
 }
-.container-why img{
-  max-width: 70px;
-  height: 50%;
+.container-why i{
+ font-size: 45px;
 }
 .container-why h2{
   color: #323a56;
