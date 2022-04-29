@@ -1438,8 +1438,8 @@ div.more-button button:hover {
 
 footer {
   width: 100%;
-  background: #142d3b;
-  color: white;
+  background: rgba(255, 255, 255, 0.76);
+  color: black;
 
 }
 
@@ -1466,7 +1466,7 @@ footer {
 
 .colum1 p {
   font-size: 14px;
-  color: #C7C7C7;
+  color: black;
   margin-top: 20px;
   font-family: 'Roboto Serif', serif;
 }
@@ -1477,24 +1477,24 @@ footer {
 }
 
 .colum2 h1 {
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Roboto Serif', serif;
 }
 
 .row {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
 }
 
-.row img {
-  width: 36px;
-  height: 36px;
+.row i {
+  font-size: 30px;
+  color: #cc900d;
 }
 
 .row label {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
-  color: #C7C7C7;
+  color: black;
 }
 
 .colum3 {
@@ -1508,24 +1508,24 @@ footer {
 }
 
 .row2 {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
 }
 
-.row2 img {
-  width: 36px;
-  height: 36px;
+.row2 i {
+  font-size: 30px;
+  color: #cc900d;
 }
 
 .row2 label {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
   max-width: 140px;
-  color: white;
+  color: black;
 }
 
 .row2 label a {
-  color: white;
+  color: black;
 }
 
 .container-footer {
