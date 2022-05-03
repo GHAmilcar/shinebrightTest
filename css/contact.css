@@ -93,7 +93,7 @@
     background-color: rgba(255, 255, 255, 0.466);
     height: 120px;
     padding: 20px 0px;
-    width: 25%;
+    width: 20%;
 }
 .net-contact h2{
     font-size: 16px;
@@ -103,15 +103,15 @@
    align-content: center;
    margin-top: 1%;
    display: flex;
-   
 }
 
 .container-map{
     width: 50%;
-    height: 100%;
+    
 }
 .container-map iframe{
     width: 95%;
+    height: 100%;
     
 }
 .container-form{
@@ -134,6 +134,8 @@ select.select-style{
     border-radius: 5px;
     padding: 5px 10px;
     border: none;
+    background-color: white;
+
 }
 textarea.textarea-style{
     height: 200px;
@@ -213,10 +215,15 @@ button.btn{
         color: #cc900d;
         text-align: center;
     }
+
+    .networks-contact{
+        width: 100%;
+        padding: 0px 5px;
+    }
     .net-contact{
         background-color: rgba(255, 255, 255, 0.466);
         height: 90px;
-        padding: 20px 5px;
+        /* padding: 20px 5px; */
         width: 25%;
     }
     .net-contact h2{
