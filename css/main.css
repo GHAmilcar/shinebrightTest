@@ -1014,7 +1014,7 @@ div.more-button button:hover {
   max-width: 1440px;
   width: 100%;
   height: 120px;
-  padding: 10px 10px;
+  padding: 10px 30px;
   text-align: center;
   margin-bottom: 1%;
 }
@@ -1022,9 +1022,13 @@ div.more-button button:hover {
   font-weight: 100;
   font-size: 2em;
   color: #142d3b;
+  font-weight: 600;
 }
 .container-explain-social-net p{
   font-size: 1em;
+  padding: 0px 60px;
+  font-size: 16px;
+  
 }
 
 
