@@ -84,7 +84,7 @@
             </div>
             <div class="container-quote-one">
               <div class="container-quote-btn">
-                <a href=""><button>Request a quote</button> </a>
+                <a href="#"><button>Request a quote</button> </a>
               </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="container-form">
-            <form method="post" action="">
+            <form action="https://formsubmit.co/aguilaramilcar96@gmail.com" method="POST">
                 <label for="">Name</label>
                 <br>
                 <input type="text" name="name" id="" class="input-style" required ="">
@@ -133,17 +133,17 @@
                 <br>
                 <label for="">Select service</label>
                 <br>
-                <select name="selection" id="color" class="select-style" required ="">
+                <select name="service selected" id="color" class="select-style" required ="">
                   <option value="">Select service</option>
-                  <option value="r">Carpet cleaning</option>
-                  <option value="a">Deep cleaning</option>
-                  <option value="v">Floor stripping</option>
-                  <option value="v">Waxing floor</option>
-                  <option value="v">Floors buffing</option>
-                  <option value="v">Floor stripping</option>
-                  <option value="">Floor maintenance</option>
-                  <option value="">Cleaning of new building</option>
-                  <option value="">Deep cleaning of homes for sale</option>
+                  <option value="Carpet cleaning">Carpet cleaning</option>
+                  <option value="Deep cleaning">Deep cleaning</option>
+                  <option value="Floor stripping">Floor stripping</option>
+                  <option value="Waxing floor">Waxing floor</option>
+                  <option value="Floors buffing">Floors buffing</option>
+                  <option value="Floor stripping">Floor stripping</option>
+                  <option value="Floor maintenance">Floor maintenance</option>
+                  <option value="Cleaning of new building">Cleaning of new building</option>
+                  <option value="Deep cleaning of homes for sale">Deep cleaning of homes for sale</option>
   
                 </select>
                 <br>
@@ -152,11 +152,11 @@
                 <textarea name="message" id=""  class="textarea-style" required =""></textarea>
                 <br>
                 <a href=""><button class="btn" name="submit">Submit</button></a>
+                <input type="hidden" name="_next" value="http://localhost:3000/contact.html">
+                <input type="hidden" name="_captcha" value="false">
            
           </form>
-          <?php
-          include("email.php");
-          ?>
+
         </div>
         </section>
     </section>
