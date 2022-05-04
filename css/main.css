@@ -1077,6 +1077,17 @@ div.more-button button:hover {
   .container-letgo{
     height: 420px;
   }
+  .container-explain-social-net{
+    height: 170px;
+    padding: 5px 0px;
+    
+  }
+  .container-explain-social-net h2{
+    font-size: 2em;
+  }
+  .container-explain-social-net p{
+    padding: 0px 20px;
+  }
 } 
 
 @media (max-width:768px){
@@ -1131,8 +1142,15 @@ div.more-button button:hover {
     padding:  0px 20px;
   }
   .container-explain-social-net{
-    height: 130px;
-    padding: 5px 40px;
+    height: 160px;
+    padding: 5px 0px;
+    
+  }
+  .container-explain-social-net h2{
+    font-size: 1.5em;
+  }
+  .container-explain-social-net p{
+    padding: 0px 20px;
   }
   
 }
@@ -1444,12 +1462,15 @@ div.more-button button:hover {
       margin-top: 10px;
     }
     .container-explain-social-net{
-      height: 160px;
-      padding: 20px 30px;
-      text-align: justify;
+      height: 250px;
+      padding: 5px 0px;
+      
     }
     .container-explain-social-net h2{
       font-size: 1.5em;
+    }
+    .container-explain-social-net p{
+      padding: 0px 20px;
     }
     
 }
