@@ -151,6 +151,17 @@ button.btn{
     background-color: #cc900d;
 }
 
+/* LEAVE FORM */
+
+.container-form-leave-license{
+    height: 700px;
+    max-width: 1440px;
+    width: 100%;
+    background-image: url(../images/backLeave.png);
+    background-size: cover;
+    background-position: center center;
+}
+
 @media (max-width:1024px) {
     .container-section-contact{
         padding-top: 18%;
