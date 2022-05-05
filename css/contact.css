@@ -169,10 +169,16 @@ button.btn{
     width: 100%;
     height: 30px;
     padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #cc900d;
+
 }
 .container-form-leave textarea{
     width: 100%;
     padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #cc900d;
 }
 .container-form-leave a button{
     width: 130px;
