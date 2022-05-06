@@ -1019,7 +1019,6 @@ div.more-button button:hover {
   max-width: 1440px;
   width: 100%;
   height: 120px;
-  padding: 10px 30px;
   text-align: center;
 
 }
@@ -1032,7 +1031,7 @@ div.more-button button:hover {
   text-transform: uppercase;
 }
 .container-explain-social-net p{
-  padding: 0px 350px;
+  padding: 0px 20px;
   font-size: 16px;
   
 }
@@ -1092,7 +1091,7 @@ div.more-button button:hover {
     font-size: 1.5em;
   }
   .container-explain-social-net p{
-    padding: 0px 250px;
+    padding: 0px 30px;
   }
 .service-s{
   height: 280px;
@@ -1174,7 +1173,7 @@ div.more-button button:hover {
     font-size: 1.3em;
   }
   .container-explain-social-net p{
-    padding: 0px 170px;
+    padding: 0px 20px;
   }
   .container-services{
     height: 320px;
@@ -1254,6 +1253,7 @@ div.more-button button:hover {
     .container-quote-btn a button{
       height: 45px;
       width: 170px;
+      
     }
     .container-section-services{
       height: 1150px;
@@ -1520,7 +1520,7 @@ div.more-button button:hover {
       margin-top: 10px;
     }
     .container-explain-social-net{
-      height: 200px;
+      height: 240px;
       padding: 20px 5px;
     }
     .container-explain-social-net h2{
@@ -1528,14 +1528,11 @@ div.more-button button:hover {
       padding: 0px 40px;
     }
     .container-explain-social-net p{
-      padding: 0px 50px;
+      padding: 0px 10px;
+      text-align: justify;
     }
     
 }
-@media (max-width:375px){
-
-}
-
 /* FOOTER  */
 
 footer {
