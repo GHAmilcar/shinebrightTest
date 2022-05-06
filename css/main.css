@@ -689,8 +689,16 @@ div.more-button button:hover {
   max-width: 1440px;
   width: 100%;
   height: 650px;
-  background-color: white;
-  padding-top: 40px;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.container-section-services a button{
+  height: 50px;
+  width: 160px;
+  border: none;
+  background-color: #cc900d;
+  color: white;
 }
 .container-letters-services{
   width: 100%;
@@ -710,22 +718,24 @@ div.more-button button:hover {
 .container-letters-services p{
   font-size: 18px;
   color: #323a56;
+  padding: 0px 50px;
 }
+
+.container-service{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  /* margin-left: 6%; */
+}
+
 .container-services{
   width: 100%;
   height: 360px;
   text-align: center;
 }
-.container-service{
-  width: 100%;
-  display: flex;
-  text-align: center;
-  padding-left: 50px;
-  /* margin-left: 6%; */
-
-}
 .service-s{
-  width: 32%;
+  width: 33%;
   background-color: white;
   height: 350px;
 }
@@ -738,21 +748,7 @@ div.more-button button:hover {
   color: #142d3b;
 }
 
-.container-btn-service{
-  width: 100%;
-  height: 70px;
-  text-align: center;
-  padding: 5px 0px;
-}
-.container-btn-service a button{
-  height: 50px;
-  width: 200px;
-  color: white;
-  background-color: #cc900d;
-  border-radius: 25px;
-  border: none;
-  text-transform: uppercase;
-}
+
 /* SECTION SERVICES */
 
 
@@ -819,6 +815,15 @@ div.more-button button:hover {
   height: 600px;
   background-color: white;
   padding-top: 40px;
+  text-align: center;
+}
+.container-section-industries a button{
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: #cc900d;
+  color: white;
+  margin-top: 5%;
 }
 .container-letters-industries{
   width: 100%;
@@ -836,7 +841,7 @@ div.more-button button:hover {
 }
 
 .container-letters-industries p{
-  font-size: 18px;
+  font-size: 25px;
   color: #323a56;
 }
 .container-industries{
@@ -852,10 +857,11 @@ div.more-button button:hover {
 .service-i{
   width: 25%;
   background-color: white;
-  height: 350px;
+  height: 400px;
 }
 .service-i img{
   width: 100%;
+  height: 70%;
 }
 .service-i p{
   font-size: 18px;
@@ -1088,6 +1094,24 @@ div.more-button button:hover {
   .container-explain-social-net p{
     padding: 0px 250px;
   }
+.service-s{
+  height: 280px;
+}
+.service-s img{
+  height: 100%;
+}
+.container-letters-industries{
+  height: 150px;
+}
+.container-letters-industries h2{
+  font-size: 30px;
+}
+.container-letters-industries p{
+  font-size: 18px;
+}
+.service-i{
+  height: 350px;
+}
 } 
 
 @media (max-width:768px){
@@ -1151,6 +1175,15 @@ div.more-button button:hover {
   }
   .container-explain-social-net p{
     padding: 0px 170px;
+  }
+  .container-services{
+    height: 320px;
+  }
+  .service-s{
+    height: 250px;
+  }
+  .service-s img{
+    height: 100%;
   }
   
 }
@@ -1223,10 +1256,10 @@ div.more-button button:hover {
       width: 170px;
     }
     .container-section-services{
-      height: 1300px;
+      height: 1150px;
     }
     .container-letters-services{
-      padding: 10px 40px;
+      padding: 10px 0px;
       height: 150px;
     }
     .container-letters-services h2{
@@ -1235,29 +1268,38 @@ div.more-button button:hover {
     .container-letters-services p{
       font-size: 14px;
     }
+    .container-section-services{
+      height: 1300px;
+      justify-content: center;
+    }
     .container-services{
-      height: 1000px;
+      height: 1050px;
       width: 100%;
+      margin-bottom: 0%;
     }
     .container-service{
       display: block;
-      width: 100%;
-      height: 33%;
+      width: 100%;  
       text-align: center;
-      padding: 10px 40px;
+      padding: 10px 20px;
     }
     .service-s{
+      height: 350px;
       width: 100%;
-      height: 100%;
-      border-radius: 5px;
+    }
+    .service-s img{
+      height: 80%;
     }
     .service-s p{
       padding: 15px 0px;
+      font-size: 16px;
     }
-
-    .container-btn-service{
-      height: 100px;
+    .container-section-services a button{
+      height: 40px;
+      width: 140px;
+      font-size: 16px;
     }
+    
     .container-text-why-choose-us h2{
       font-size: 20px;
     }
@@ -1289,21 +1331,26 @@ div.more-button button:hover {
     }
     .container-section-industries{
       height: 100%;
+      margin-bottom: 0%;
+      height: 1650px;
+      margin-bottom: 1%;
     
     }
     .container-industries{
-      height: 1200px;
+      height: 1390px;
       width: 100%;
+      margin-bottom: 0%;
     }
     .container-industry{
       display: block;
       width: 100%;
       text-align: center;
-      height: 25%;
-      padding: 10px 40px;
+      height: 24%;
+      padding: 10px 20px;
     }
     .container-letters-industries{
       padding: 10px 40px;
+      height: 150px;
     }
     .container-letters-industries h2{
       font-size: 20px;
@@ -1312,16 +1359,22 @@ div.more-button button:hover {
       font-size: 16px;
     }
     .service-i{
-      height: 100%;
+      height: 350px;
       width: 100%;
     }
+    .service-i img{
+      height: 80%;
+    }
+
     .service-i p{
       padding: 10px 0px;
+      font-size: 16px;
     }
     .container-btn-industry{
-      height: 100px;
+      height: 80px;
       padding: 0px 0px;
       margin: 0px;
+      background-color: #323a56;
     }
     
     /* about-about */
