@@ -1031,7 +1031,7 @@ div.more-button button:hover {
   text-transform: uppercase;
 }
 .container-explain-social-net p{
-  padding: 0px 20px;
+  padding: 0px 350px;
   font-size: 16px;
   
 }
@@ -1091,7 +1091,7 @@ div.more-button button:hover {
     font-size: 1.5em;
   }
   .container-explain-social-net p{
-    padding: 0px 30px;
+    padding: 0px 250px;
   }
 .service-s{
   height: 280px;
@@ -1170,10 +1170,10 @@ div.more-button button:hover {
     
   }
   .container-explain-social-net h2{
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .container-explain-social-net p{
-    padding: 0px 20px;
+    padding: 0px 150px;
   }
   .container-services{
     height: 320px;
@@ -1529,7 +1529,7 @@ div.more-button button:hover {
     }
     .container-explain-social-net p{
       padding: 0px 10px;
-      text-align: justify;
+ 
     }
     
 }
