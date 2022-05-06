@@ -304,4 +304,9 @@ button.btn{
         height: 500px;
         padding: 5px 10%;    
     }
+    .container-form-leave a button{
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+    }
 }

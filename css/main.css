@@ -1336,6 +1336,11 @@ div.more-button button:hover {
       margin-bottom: 1%;
     
     }
+    .container-section-industries a button{
+      height: 40px;
+      width: 130px;
+      font-size: 16px;
+    }
     .container-industries{
       height: 1390px;
       width: 100%;
