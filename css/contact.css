@@ -172,7 +172,10 @@ button.btn{
     border-radius: 5px;
     border: none;
     border: 1px solid #cc900d;
-
+    color: #cc900d;
+}
+.container-form-leave label{
+    color: #cc900d;
 }
 .container-form-leave textarea{
     width: 100%;
@@ -300,13 +303,17 @@ button.btn{
     .container-contact-form{
         height: 630px;
     }
+    .container-form-leave{
+        padding: 0px 10px;
+    }
     .container-form-leave-license{
         height: 500px;
-        padding: 5px 10%;    
+        padding: 0px 10px;    
     }
     .container-form-leave a button{
         height: 35px;
         width: 120px;
         font-size: 14px;
     }
+
 }
