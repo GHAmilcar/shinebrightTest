@@ -433,11 +433,11 @@ article p {
 }
 
 .more-information h2 {
-  font-weight: 100;
+  font-weight: 600;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #142d3b;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .more-information h4 {
@@ -1111,6 +1111,10 @@ div.more-button button:hover {
 .service-i{
   height: 350px;
 }
+.more-information h2{
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
 } 
 
 @media (max-width:768px){
@@ -1128,10 +1132,11 @@ div.more-button button:hover {
     height: 200px;
   }
   .more-information h2 {
-    font-weight: 100;
+    font-weight: 600;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #142d3b;
+    text-transform: uppercase;
   }
   
   .more-information h4 {
@@ -1427,9 +1432,9 @@ div.more-button button:hover {
       height: 180px;
     }
     .more-information h2 {
-      font-weight: 100;
+      font-weight: 600;
       text-align: center;
-      font-size: 1.5em;
+      font-size: 1.3em;
       color: #142d3b;
     }
     
