@@ -124,7 +124,7 @@ ul.tabs{
 }
 
 ul.tabs li{
-	width: 33.3%;
+	width: 50%;
 }
 
 ul.tabs li a{
@@ -174,10 +174,6 @@ ul.tabs li a .tab-text{
 @media screen and (max-width: 600px){
 	ul.tabs li a{
 		padding: 15px 0px;
-	}
-
-	ul.tabs li a .tab-text{
-		display: none;
 	}
 
 	.secciones article{
