@@ -10,16 +10,32 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img//logotype.png">
-    <link rel="stylesheet" href="css/twentytwenty.css">
-    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/industries.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/tab_nav.css">
     <link rel="stylesheet" href="css/industry.css">
     <title>Industries we serve - Shine Bright LLC.</title>
-
-</head>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/twenty-script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/industry.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script>
+$(function(){
+  $.scrollUp(
+    {
+      scrollImage: true
+    }
+  );
+});
+    </script>
+  </head>
 <body>
     <nav>
         <div class="navbar">
@@ -95,7 +111,7 @@
                 </div>
             </div>
       </section>
-      <a href="#top"><span><i class="upbutton fa-solid fa-angle-up"></i></span></a>
+      <!-- <a href="#top"><span><i class="upbutton fa-solid fa-angle-up"></i></span></a> -->
             <section class="container-industry-text" data-aos="flip-up" id="container-industry-move">
               <div class="container-son-text">
                 <h2>All industries we serve</h2>
@@ -427,20 +443,7 @@
                      </div>
                  </div>
   
-             </div>
-         
+             </div>    
      </footer>
-     <script src="js/lightbox-plus-jquery.min.js"></script>
-     <script src="js/lightbox.min.js"></script>
-     <script src="js/app.js"></script>
-     <script
-     src="https://code.jquery.com/jquery-3.2.1.js"></script>
-     <script src="js/jquery.event.move.js"></script>
-     <script src="js/jquery.twentytwenty.js"></script>
-     <script src="js/twenty-script.js"></script>
-     <script src="js/main.js"></script>
-     <script src="js/industry.js"></script>
-     <script src="js/tabs.js"></script>
-
 </body>
 </html>

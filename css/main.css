@@ -396,6 +396,16 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 }
 
+/*Estilos de boton up*/
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/btnup.png);
+  background-size: cover;
+}
+
 /*MENU*/
 
 /*ARTICULO*/
