@@ -400,10 +400,9 @@ nav .navbar .links li:hover .js-sub-menu {
 #scrollUp {
   bottom: 20px;
   right: 20px;
-  width: 50px;
-  height: 50px;
-  background-image: url(../img/btnup.png);
-  background-size: cover;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
 }
 
 /*MENU*/
@@ -1536,7 +1535,7 @@ div.more-button button:hover {
       margin-top: 10px;
     }
     .container-explain-social-net{
-      height: 240px;
+      height: 150px;
       padding: 20px 5px;
     }
     .container-explain-social-net h2{
